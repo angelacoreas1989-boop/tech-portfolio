@@ -7,9 +7,8 @@ body {
 
 header {
   text-align: center;
-  padding: 50px 20px;
+  padding: 70px 20px;
   background: linear-gradient(135deg, #ff69b4, #1a0a12, #0b0b0f);
-  border-bottom: 1px solid #ff69b4;
 }
 
 header h1 {
@@ -23,7 +22,7 @@ header p {
 }
 
 section {
-  padding: 40px 20px;
+  padding: 50px 20px;
   max-width: 900px;
   margin: auto;
 }
@@ -36,16 +35,17 @@ h2 {
 
 .card {
   background: rgba(255, 105, 180, 0.08);
-  padding: 20px;
+  padding: 25px;
   margin-top: 20px;
-  border-radius: 12px;
-  border: 1px solid rgba(255, 105, 180, 0.3);
-  transition: 0.3s;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 105, 180, 0.25);
+  transition: 0.3s ease;
 }
 
 .card:hover {
-  transform: translateY(-5px);
+  transform: translateY(-6px);
   border: 1px solid #ff69b4;
+  box-shadow: 0 10px 25px rgba(255, 105, 180, 0.15);
 }
 
 .card a {
