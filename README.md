@@ -1,61 +1,76 @@
-# Angela Coreas - Tech Portfolio
+<p align="center">
+  <img src="./angela-coreas-banner.png" alt="Banner" />
+</p>
 
-This repository contains my personal portfolio website showcasing my transition into software engineering and cybersecurity.
+<h1 align="center" style="color:#ff69b4;">Angela Coreas</h1>
 
----
-
-## 🚀 About This Project
-
-This portfolio was built to highlight my skills in:
-- Front-end development
-- JavaScript fundamentals
-- Git and GitHub workflows
-- Cybersecurity fundamentals
-- Enterprise technology tools
-
-It also serves as a central hub for my projects, certifications, and professional links.
+<p align="center">
+<b style="color:#ff69b4;">Software Engineer • Frontend Developer • Cybersecurity & Systems Explorer</b>
+</p>
 
 ---
 
-## 💻 Featured Projects
+## ✦ ABOUT ME ✦
 
-### Leasing Application Portal
-A simulated application workflow system built using HTML, CSS, and JavaScript.
+I’m a software engineering-focused developer building hands-on experience through real projects in web development, cybersecurity fundamentals, and systems thinking.
 
-Live Demo:  
-https://angelacoreas1989-boop.github.io/leasing-application-portal/
+I enjoy turning ideas into clean, functional applications and continuously improving how I think, build, and problem-solve.
 
 ---
 
-### Nicole’s Flower Designs
-A responsive business website focused on layout design and user experience.
+## ✦ CURRENT FOCUS ✦
 
-Live Demo:  
+- Frontend development (HTML, CSS, JavaScript)
+- Cybersecurity fundamentals (SOC concepts, monitoring, threat awareness)
+- Building project-based experience for enterprise tech roles
+- Strengthening Git, GitHub, and deployment workflows
+
+---
+
+## ✦ TECH STACK ✦
+
+- HTML5 / CSS3 / JavaScript  
+- Git & GitHub  
+- GitHub Pages deployment  
+- Responsive UI design  
+- Basic cybersecurity concepts  
+- CRM & workflow systems (professional experience)
+
+---
+
+## ✦ FEATURED PROJECTS ✦
+
+### 🌸 Flower Design Website
+Responsive business website with form integration and clean UI structure.
+
+🔗 Live:
 https://angelacoreas1989-boop.github.io/nicole-flower-designs/
 
 ---
 
-## 📜 Certifications
+### 🏡 Leasing Application Portal
+Simulated application processing system with decision workflows using JavaScript.
 
-- Cisco Introduction to Cybersecurity (2026)
-- Salesforce Introduction (2026)
-- Salesforce Reports & Dashboards (2026)
-
----
-
-## 🎯 Purpose
-
-This project represents my transition from application processing and customer operations into software engineering and cybersecurity through hands-on learning and real-world projects.
+🔗 Live:
+https://angelacoreas1989-boop.github.io/leasing-application-portal/
 
 ---
 
-## 🔗 Links
+## ✦ CERTIFICATIONS ✦
 
-- GitHub: https://github.com/angelacoreas1989-boop  
+- Cisco: Introduction to Cybersecurity (Issued May 17, 2026)
+- Salesforce: Reports and Dashboards (Completed May 9, 2026)
+- Salesforce: Introduction (Completed May 9, 2026)
+
+---
+
+## ✦ CONNECT ✦
+
 - LinkedIn: https://www.linkedin.com/in/angela-coreas-550088186  
+- GitHub: https://github.com/angelacoreas1989-boop  
 
 ---
 
-## 🌱 Goal
-
-To grow into a role in software engineering, cybersecurity, or enterprise technology through apprenticeship and entry-level opportunities.
+<p align="center">
+<i>Building consistently. Learning intentionally. Growing into enterprise software engineering.</i>
+</p>
