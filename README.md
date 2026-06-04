@@ -37,6 +37,14 @@ I enjoy building practical applications, learning modern technologies, and creat
 
 ---
 
+## ✦ Tech Stack ✦
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,javascript,react,git,github,vscode" />
+</p>
+
+---
+
 ## ✦ Featured Projects ✦
 
 ### ✦ Nicole Flower Designs
