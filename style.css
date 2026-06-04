@@ -283,3 +283,12 @@ footer {
   opacity: 1;
   transform: translateY(0);
 }
+/* ABOUT SPACING */
+
+#about p {
+  margin-bottom: 28px;
+}
+
+#about p:last-of-type {
+  margin-bottom: 0;
+}
