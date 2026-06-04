@@ -1,76 +1,89 @@
 <p align="center">
-  <img src="./angela-coreas-banner.png" alt="Banner" />
+  <img src="./assets/angela-coreas-banner.png" alt="Angela Coreas Banner" width="100%" />
 </p>
 
-<h1 align="center" style="color:#ff69b4;">Angela Coreas</h1>
+<h1 align="center">✦ Angela Coreas ✦</h1>
 
 <p align="center">
-<b style="color:#ff69b4;">Software Engineer • Frontend Developer • Cybersecurity & Systems Explorer</b>
+  <b>Aspiring Software Engineer • Frontend Developer • Lifelong Learner</b>
+</p>
+
+<p align="center">
+  Turning ideas into real-world applications through code ♡
 </p>
 
 ---
 
-## ✦ ABOUT ME ✦
+## ✦ About Me
 
-I’m a software engineering-focused developer building hands-on experience through real projects in web development, cybersecurity fundamentals, and systems thinking.
+I'm an aspiring Software Engineer transitioning from property management into tech.
 
-I enjoy turning ideas into clean, functional applications and continuously improving how I think, build, and problem-solve.
+I enjoy building practical applications, learning modern technologies, and creating solutions that make a meaningful impact. Every project is an opportunity to grow, improve, and get one step closer to becoming the developer I aspire to be.
 
----
+🌸 Currently learning React and modern JavaScript
 
-## ✦ CURRENT FOCUS ✦
+💻 Building projects to strengthen my software engineering skills
 
-- Frontend development (HTML, CSS, JavaScript)
-- Cybersecurity fundamentals (SOC concepts, monitoring, threat awareness)
-- Building project-based experience for enterprise tech roles
-- Strengthening Git, GitHub, and deployment workflows
+🚀 Seeking Software Engineering Internship opportunities
 
----
+📚 Passionate about continuous learning and personal growth
 
-## ✦ TECH STACK ✦
-
-- HTML5 / CSS3 / JavaScript  
-- Git & GitHub  
-- GitHub Pages deployment  
-- Responsive UI design  
-- Basic cybersecurity concepts  
-- CRM & workflow systems (professional experience)
+✨ Believer in progress over perfection
 
 ---
 
-## ✦ FEATURED PROJECTS ✦
+## ✦ Tech Stack
 
-### 🌸 Flower Design Website
-Responsive business website with form integration and clean UI structure.
-
-🔗 Live:
-https://angelacoreas1989-boop.github.io/nicole-flower-designs/
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,javascript,react,git,github,vscode" />
+</p>
 
 ---
 
-### 🏡 Leasing Application Portal
-Simulated application processing system with decision workflows using JavaScript.
+## ✦ Featured Projects
 
-🔗 Live:
-https://angelacoreas1989-boop.github.io/leasing-application-portal/
+### 🌸 Flower Shop Website
+
+A responsive floral website designed to showcase beautiful arrangements through a modern and user-friendly experience.
+
+**Built With**
+- HTML5
+- CSS3
+- JavaScript
+- Responsive Design
+
+🔗 Repository: [Flower Shop Website](YOUR-REPOSITORY-LINK)
 
 ---
 
-## ✦ CERTIFICATIONS ✦
+## ✦ Current Goals
 
-- Cisco: Introduction to Cybersecurity (Issued May 17, 2026)
-- Salesforce: Reports and Dashboards (Completed May 9, 2026)
-- Salesforce: Introduction (Completed May 9, 2026)
+✦ Continue building real-world projects
+
+✦ Strengthen React and JavaScript skills
+
+✦ Contribute to more GitHub repositories
+
+✦ Land a Software Engineering Internship
+
+✦ Grow into a confident software engineer
 
 ---
 
-## ✦ CONNECT ✦
+## ✦ Connect With Me
 
-- LinkedIn: https://www.linkedin.com/in/angela-coreas-550088186  
-- GitHub: https://github.com/angelacoreas1989-boop  
+<p align="center">
+  <a href="YOUR-LINKEDIN-URL">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-ff69b4?style=for-the-badge&logo=linkedin" />
+  </a>
+</p>
 
 ---
 
 <p align="center">
-<i>Building consistently. Learning intentionally. Growing into enterprise software engineering.</i>
+  ✦ Building Solutions • Writing Code • Creating Impact ✦
+</p>
+
+<p align="center">
+  <i>"Progress over perfection."</i> ♡
 </p>
