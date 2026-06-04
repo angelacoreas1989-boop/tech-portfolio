@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/angela-coreas-banner.png" alt="Angela Coreas Banner" width="100%" />
+</p>
+
 # ✦ Angela Coreas ✦
 
 <p align="center">
