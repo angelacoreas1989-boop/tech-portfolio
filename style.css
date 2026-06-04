@@ -21,7 +21,9 @@ body {
   line-height: 1.6;
 }
 
-/* NAV */
+/* =========================
+   NAV
+========================= */
 nav {
   display: flex;
   justify-content: center;
@@ -31,6 +33,7 @@ nav {
   position: sticky;
   top: 0;
   background: #fff;
+  z-index: 1000;
 }
 
 nav a {
@@ -44,15 +47,18 @@ nav a:hover {
   color: var(--pink);
 }
 
-/* HERO */
+/* =========================
+   HERO
+========================= */
 .hero {
   text-align: center;
-  padding: 100px 20px 70px;
+  padding: 110px 20px 70px;
 }
 
 .hero h1 {
   font-size: 3rem;
   color: var(--pink);
+  letter-spacing: 1px;
 }
 
 .hero p {
@@ -63,67 +69,134 @@ nav a:hover {
 .tagline {
   color: var(--hot-pink);
   font-weight: 500;
+  margin-top: 8px;
+  min-height: 20px;
 }
 
-/* BUTTON */
+/* HERO BUTTONS */
 .btn {
   display: inline-block;
   margin-top: 25px;
-  padding: 10px 26px;
-  border: 1px solid var(--pink);
+  padding: 12px 28px;
+  border-radius: 30px;
+  background: var(--pink);
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+  font-weight: 600;
+  box-shadow: 0 6px 18px rgba(231, 84, 128, 0.25);
+}
+
+.btn:hover {
+  background: var(--hot-pink);
+  transform: translateY(-2px);
+}
+
+/* OUTLINE BUTTONS (LinkedIn/GitHub) */
+.btn-outline {
+  padding: 8px 18px;
+  border: 1px solid var(--light-pink);
   border-radius: 30px;
   color: var(--pink);
   text-decoration: none;
   transition: 0.3s;
+  font-weight: 500;
 }
 
-.btn:hover {
-  background: var(--pink);
+.btn-outline:hover {
+  background: var(--light-pink);
   color: #fff;
 }
 
-/* SECTIONS */
+/* HERO LINK ROW */
+.hero-links {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+/* =========================
+   SECTIONS
+========================= */
 section {
   max-width: 950px;
   margin: auto;
-  padding: 60px 20px;
+  padding: 70px 20px;
 }
 
 h2 {
   color: var(--pink);
   margin-bottom: 20px;
+  font-size: 1.8rem;
+  position: relative;
 }
 
-/* ABOUT */
+h2::after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: var(--light-pink);
+  margin-top: 8px;
+  border-radius: 10px;
+}
+
+/* =========================
+   ABOUT
+========================= */
 .about {
   color: var(--muted);
+  font-size: 1.05rem;
+  line-height: 1.7;
 }
 
-/* PROJECTS */
+/* =========================
+   PROJECTS
+========================= */
 .projects {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
+  gap: 22px;
 }
 
 .card {
   background: var(--soft);
   border: 1px solid #eee;
-  padding: 20px;
-  border-radius: 14px;
+  padding: 22px;
+  border-radius: 16px;
   transition: 0.3s;
+  position: relative;
 }
 
 .card:hover {
-  transform: translateY(-4px);
+  transform: translateY(-6px);
   border-color: var(--light-pink);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.06);
 }
 
 .card h3 {
   color: var(--hot-pink);
+  margin-bottom: 8px;
 }
 
-/* SKILLS */
+.project-link {
+  display: inline-block;
+  margin-top: 12px;
+  color: var(--pink);
+  font-weight: bold;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.project-link:hover {
+  color: var(--hot-pink);
+  text-decoration: underline;
+}
+
+/* =========================
+   SKILLS
+========================= */
 .skills {
   display: flex;
   flex-wrap: wrap;
@@ -136,22 +209,46 @@ h2 {
   border-radius: 20px;
   color: var(--pink);
   background: #fff;
+  transition: 0.3s;
 }
 
-/* CONTACT */
+.badge:hover {
+  background: var(--light-pink);
+  color: #fff;
+  transform: scale(1.05);
+}
+
+/* =========================
+   CONTACT
+========================= */
+.contact {
+  color: var(--muted);
+}
+
 .contact a {
   color: var(--pink);
   text-decoration: none;
+  font-weight: 500;
 }
 
 .contact a:hover {
   text-decoration: underline;
 }
 
-/* FOOTER */
+/* =========================
+   FOOTER
+========================= */
 footer {
   text-align: center;
-  padding: 40px;
+  padding: 45px;
   border-top: 1px solid #eee;
   color: var(--muted);
+  margin-top: 40px;
+}
+
+/* =========================
+   SMALL ANIMATIONS
+========================= */
+html {
+  scroll-behavior: smooth;
 }
