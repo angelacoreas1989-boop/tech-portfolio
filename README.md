@@ -40,6 +40,10 @@ My goal is to continue building meaningful projects, expand my technical knowled
   <img src="https://skillicons.dev/icons?i=html,css,javascript,react,git,github,vscode" />
 </p>
 
+<p align="center">
+  HTML • CSS • JavaScript • React • Git • GitHub • VS Code
+</p>
+
 ---
 
 ## ✦ Featured Projects ✦
