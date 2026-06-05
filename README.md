@@ -15,25 +15,22 @@
 </p>
 
 <p align="center">
-  <b>✦ Aspiring Software Engineer • Frontend Developer • Lifelong Learner ✦</b>
+  <b>✦ Software Engineering Student • Building Real-World Solutions ✦</b>
 </p>
 
 <p align="center">
-  Turning ideas into real-world applications through code ♡
+  Personal portfolio showcasing my software engineering journey, technical skills, and growing collection of real-world projects.♡
 </p>
 
 ---
 
-## ✦ About Me ✦
+## ✦ About This Portfolio ✦
 
-I'm an aspiring Software Engineer transitioning from property management into tech.
+This portfolio was designed and built to showcase my software engineering journey, technical skills, and project experience as I transition into the technology industry.
 
-I enjoy building practical applications, learning modern technologies, and creating solutions that make a meaningful impact.
+Through this portfolio, I document my progress, highlight real-world applications I've developed, and demonstrate my growing experience with HTML, CSS, JavaScript, Git, GitHub, responsive design, and modern development workflows.
 
-🌸 Currently learning React and JavaScript  
-💻 Building real-world projects  
-🚀 Seeking Software Engineering Internship opportunities  
-✨ Focused on continuous growth and improvement  
+My goal is to continue building meaningful projects, expand my technical knowledge, and contribute to software teams through internship opportunities and hands-on experience.
 
 ---
 
@@ -48,7 +45,7 @@ I enjoy building practical applications, learning modern technologies, and creat
 ## ✦ Featured Projects ✦
 
 ### ✦ Nicole Flower Designs
-A responsive floral website showcasing elegant design and user experience.
+A responsive floral business website showcasing elegant design, modern layout, and user-friendly navigation.
 
 🔗 Live Demo:  
 https://angelacoreas1989-boop.github.io/nicole-flower-designs/
@@ -56,28 +53,28 @@ https://angelacoreas1989-boop.github.io/nicole-flower-designs/
 ---
 
 ### ✦ Leasing Application Portal
-A clean and modern UI for leasing application workflows.
+A front-end workflow application that simulates leasing operations, applicant review, search functionality, filtering, and decision logic inspired by real-world business processes.
 
 🔗 Live Demo:  
 https://angelacoreas1989-boop.github.io/leasing-application-portal/
 
 ---
 
-### ✦ Flower Shop Website
-A front-end project built using HTML, CSS, and responsive design principles.
+### ✦ DailyFlow
+A Python productivity planner designed to help users organize tasks, track daily progress, and manage priorities throughout the day.
 
-🔗 Repository:  
-https://github.com/angelacoreas1989-boop
+🚧 Currently in Development
 
 ---
 
 ## ✦ Current Goals ✦
 
-✦ Continue building real-world projects  
-✦ Strengthen React and JavaScript skills  
-✦ Contribute more to GitHub  
+✦ Continue building real-world software projects  
+✦ Learn Python through hands-on development  
+✦ Strengthen JavaScript and React skills  
+✦ Build DailyFlow into a portfolio-ready application  
 ✦ Land a Software Engineering Internship  
-✦ Grow into a confident developer  
+✦ Continue growing as a developer  
 
 ---
 
@@ -95,5 +92,5 @@ https://github.com/angelacoreas1989-boop
 </p>
 
 <p align="center">
-  <i>“Progress over perfection.”</i> ♡
+  <i>"The future is built one commit at a time."</i> ♡
 </p>
