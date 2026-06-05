@@ -2,92 +2,200 @@
   <img src="./assets/angela-coreas-banner.png" alt="Angela Coreas Banner" width="100%" />
 </p>
 
-# ✦ Angela Coreas ✦
+<h1 align="center">✦ Angela Coreas | Software Engineering Portfolio ✦</h1>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/angela-coreas-550088186" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-ff69b4?style=for-the-badge&logo=linkedin" />
+  <b>Software Engineering Student • Building Real-World Solutions Through Code</b>
+</p>
+
+<p align="center">
+Showcasing projects, technical growth, and hands-on development experience while pursuing a Software Engineering degree.
+</p>
+
+<br/>
+
+<p align="center">
+<img src="https://img.shields.io/badge/WGU-Software_Engineering-e75480?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Focus-Portfolio_Development-ff69b4?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Goal-SWE_Internship-ffb6c1?style=for-the-badge"/>
+</p>
+
+<br/>
+
+<p align="center">
+  <a href="https://github.com/angelacoreas1989-boop">
+    <img src="https://img.shields.io/badge/GitHub-Profile-5a5a5a?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 
-  <a href="https://github.com/angelacoreas1989-boop" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-Profile-ff69b4?style=for-the-badge&logo=github" />
+  <a href="https://angelacoreas1989-boop.github.io/tech-portfolio/">
+    <img src="https://img.shields.io/badge/Projects-Portfolio-000000?style=for-the-badge" />
+  </a>
+
+  <a href="https://www.linkedin.com/in/angela-coreas-550088186">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-5a5a5a?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+
+  <a href="https://angelacoreas1989-boop.github.io/tech-portfolio/">
+    <img src="https://img.shields.io/badge/Profile-Angela_Coreas-ff69b4?style=for-the-badge" />
   </a>
 </p>
 
+---
+
+## ✦ LIVE DEMO ✦
+
+🔗 https://angelacoreas1989-boop.github.io/tech-portfolio/
+
+---
+
+## ✦ PURPOSE ✦
+
+As I transition into software engineering, I wanted a centralized platform to showcase my projects, technical skills, and professional growth.
+
+This portfolio serves as a professional hub where recruiters, hiring managers, and fellow developers can explore my work, follow my learning journey, and view the projects I continue to build while pursuing my Software Engineering degree.
+
+---
+
+## ✦ PROJECT OVERVIEW ✦
+
+This portfolio website was designed and built to present my software engineering journey in a polished and professional way.
+
+It highlights my technical skills, featured projects, background in operations and CRM systems, and continued growth as I build real-world applications using HTML, CSS, JavaScript, Git, GitHub, and modern development tools.
+
+---
+
+## ✦ FEATURES ✦
+
+✦ Custom branded portfolio banner
+
+✦ Responsive design for desktop and mobile devices
+
+✦ Featured project showcase
+
+✦ About Me section
+
+✦ Skills section
+
+✦ Contact section
+
+✦ GitHub and LinkedIn integration
+
+✦ Smooth navigation experience
+
+✦ GitHub Pages deployment
+
+---
+
+## ✦ TECH STACK ✦
+
 <p align="center">
-  <b>✦ Software Engineering Student • Building Real-World Solutions ✦</b>
+  <img src="https://skillicons.dev/icons?i=html,css,javascript,git,github,vscode" />
 </p>
 
 <p align="center">
-  Personal portfolio showcasing my software engineering journey, technical skills, and growing collection of real-world projects.♡
+HTML • CSS • JavaScript • Git • GitHub • VS Code
 </p>
 
 ---
 
-## ✦ About This Portfolio ✦
+## ✦ SKILLS DEMONSTRATED ✦
 
-This portfolio was designed and built to showcase my software engineering journey, technical skills, and project experience as I transition into the technology industry.
+✦ Front-End Development Foundations
 
-Through this portfolio, I document my progress, highlight real-world applications I've developed, and demonstrate my growing experience with HTML, CSS, JavaScript, Git, GitHub, responsive design, and modern development workflows.
+✦ Responsive Web Design
 
-My goal is to continue building meaningful projects, expand my technical knowledge, and contribute to software teams through internship opportunities and hands-on experience.
+✦ UI Design & Layout Structure
 
----
+✦ Personal Branding & Portfolio Development
 
-## ✦ Tech Stack ✦
+✦ HTML & CSS Development
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,javascript,react,git,github,vscode" />
-</p>
+✦ JavaScript Fundamentals
 
-<p align="center">
-  HTML • CSS • JavaScript • React • Git • GitHub • VS Code
-</p>
+✦ Git Version Control
 
----
+✦ GitHub Repository Management
 
-## ✦ Featured Projects ✦
+✦ GitHub Pages Deployment
 
-### ✦ Nicole Flower Designs
-A responsive floral business website showcasing elegant design, modern layout, and user-friendly navigation.
-
-🔗 Live Demo:  
-https://angelacoreas1989-boop.github.io/nicole-flower-designs/
+✦ Professional Project Documentation
 
 ---
 
-### ✦ Leasing Application Portal
-A front-end workflow application that simulates leasing operations, applicant review, search functionality, filtering, and decision logic inspired by real-world business processes.
+## ✦ SCREENSHOTS ✦
 
-🔗 Live Demo:  
-https://angelacoreas1989-boop.github.io/leasing-application-portal/
+### ✦ Portfolio Homepage ✦
 
----
+![Portfolio Homepage](assets/portfolio-homepage.png)
 
-### ✦ DailyFlow
-A Python productivity planner designed to help users organize tasks, track daily progress, and manage priorities throughout the day.
+### ✦ Featured Projects Section ✦
 
-🚧 Currently in Development
+![Projects Section](assets/projects-section.png)
 
 ---
 
-## ✦ Current Goals ✦
+## ✦ WHAT I LEARNED ✦
 
-✦ Continue building real-world software projects  
-✦ Learn Python through hands-on development  
-✦ Strengthen JavaScript and React skills  
-✦ Build DailyFlow into a portfolio-ready application  
-✦ Land a Software Engineering Internship  
-✦ Continue growing as a developer  
+✦ How to structure and deploy a professional portfolio website
+
+✦ How to showcase technical projects for recruiters and hiring managers
+
+✦ How to create consistent branding across GitHub repositories
+
+✦ How to improve responsive layouts and user experience
+
+✦ How to present projects as professional case studies
+
+✦ How to connect technical skills, projects, and career goals into a single platform
 
 ---
 
-## ✦ Connect With Me ✦
+## ✦ FUTURE ENHANCEMENTS ✦
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/angela-coreas-550088186">LinkedIn</a> •
-  <a href="https://github.com/angelacoreas1989-boop">GitHub</a>
-</p>
+✦ Add additional software engineering projects
+
+✦ Incorporate React-based components
+
+✦ Add downloadable resume functionality
+
+✦ Expand project case studies
+
+✦ Improve animations and interactions
+
+✦ Continue updating as new projects are completed
+
+---
+
+## ✦ PROJECT STRUCTURE ✦
+
+```text
+tech-portfolio/
+├── assets/
+│   ├── angela-coreas-banner.png
+│   ├── portfolio-homepage.png
+│   └── projects-section.png
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+```
+
+---
+
+## ✦ AUTHOR ✦
+
+**Angela Coreas**
+
+Software Engineering Student • Operations & CRM Professional
+
+LinkedIn:
+https://www.linkedin.com/in/angela-coreas-550088186
+
+GitHub:
+https://github.com/angelacoreas1989-boop
+
+Portfolio:
+https://angelacoreas1989-boop.github.io/tech-portfolio/
 
 ---
 
@@ -96,5 +204,9 @@ A Python productivity planner designed to help users organize tasks, track daily
 </p>
 
 <p align="center">
-  <i>"The future is built one commit at a time."</i> ♡
+  <i>💗 Building consistently. Learning intentionally. Creating real-world solutions. 💗</i>
+</p>
+
+<p align="center">
+  ✦
 </p>
