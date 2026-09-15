@@ -437,16 +437,12 @@ h2 {
   color: var(--text) !important;
 }
 
-.contact-email a {
+.contact-email span {
   color: var(--hot-pink);
   font-weight: 700;
-  text-decoration: none;
+  user-select: all;
 }
 
-.contact-email a:hover {
-  color: var(--light-pink);
-  text-decoration: underline;
-}
 
 footer {
   padding: 40px 20px;
