@@ -1,6 +1,7 @@
 const typingElement = document.getElementById("typing");
 
-const message = "Designing technology around real users and real workflows.";
+const message =
+  "Designing technology around real users and real workflows.";
 
 let characterIndex = 0;
 
@@ -44,7 +45,7 @@ if (prefersReducedMotion || !("IntersectionObserver" in window)) {
       });
     },
     {
-      threshold: 0.12
+      threshold: 0.1
     }
   );
 
