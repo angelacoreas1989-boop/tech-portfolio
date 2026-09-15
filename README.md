@@ -20,15 +20,19 @@
 
 <p align="center">
   <img
-    src="https://img.shields.io/badge/WGU-Software%20Engineering-e75480?style=for-the-badge"
+    src="https://img.shields.io/badge/WGU-Software_Engineering-e75480?style=for-the-badge"
     alt="WGU Software Engineering Student"
   />
   <img
-    src="https://img.shields.io/badge/Focus-Human%20Centered%20Technology-ff69b4?style=for-the-badge"
+    src="https://img.shields.io/badge/Focus-Human--Centered_Technology-ff69b4?style=for-the-badge"
     alt="Focus on Human-Centered Technology"
   />
   <img
-    src="https://img.shields.io/badge/Goal-Summer%202027%20Internship-ffb6c1?style=for-the-badge"
+    src="https://img.shields.io/badge/Award-WGU_Excellence_Award-FFD700?style=for-the-badge"
+    alt="WGU Excellence Award"
+  />
+  <img
+    src="https://img.shields.io/badge/Goal-Summer_2027_Internship-ffb6c1?style=for-the-badge"
     alt="Seeking a Summer 2027 Internship"
   />
 </p>
@@ -38,28 +42,28 @@
 <p align="center">
   <a href="https://angelacoreas1989-boop.github.io/tech-portfolio/">
     <img
-      src="https://img.shields.io/badge/Portfolio-Live%20Website-ff69b4?style=for-the-badge"
-      alt="View Angela Coreas's Live Portfolio"
+      src="https://img.shields.io/badge/Portfolio-Live_Website-ff69b4?style=for-the-badge&logo=googlechrome&logoColor=white"
+      alt="View Angela Coreas's live portfolio"
     />
   </a>
 
   <a href="https://github.com/angelacoreas1989-boop">
     <img
       src="https://img.shields.io/badge/GitHub-Profile-5a5a5a?style=for-the-badge&logo=github&logoColor=white"
-      alt="View Angela Coreas's GitHub Profile"
+      alt="View Angela Coreas's GitHub profile"
     />
   </a>
 
-  <a href="https://www.linkedin.com/in/angela-coreas-550088186">
+  <a href="https://www.linkedin.com/in/angela-coreas-550088186/">
     <img
-      src="https://img.shields.io/badge/LinkedIn-Connect-5a5a5a?style=for-the-badge&logo=linkedin&logoColor=white"
+      src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"
       alt="Connect with Angela Coreas on LinkedIn"
     />
   </a>
 
-  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=acorea3@wgu.edu&su=Portfolio%20Contact%20for%20Angela%20Coreas">
+  <a href="mailto:acorea3@wgu.edu">
     <img
-      src="https://img.shields.io/badge/Email-WGU-ffb6c1?style=for-the-badge&logo=gmail&logoColor=white"
+      src="https://img.shields.io/badge/Email-Contact_Me-ffb6c1?style=for-the-badge&logo=gmail&logoColor=white"
       alt="Email Angela Coreas"
     />
   </a>
@@ -69,44 +73,59 @@
 
 ## ✦ LIVE PORTFOLIO ✦
 
-Explore the completed portfolio and project demonstrations:
+Explore my portfolio, project demonstrations, and case studies:
 
-### [View Angela Coreas's Live Portfolio](https://angelacoreas1989-boop.github.io/tech-portfolio/)
+### [View Angela Coreas’s Live Portfolio](https://angelacoreas1989-boop.github.io/tech-portfolio/)
 
 ---
 
 ## ✦ PURPOSE ✦
 
-I created this portfolio to present my software engineering projects, technical development, professional background, and transition into technology in one organized experience.
+I created this portfolio to present my software engineering projects, technical development, professional background, and transition into technology through one organized experience.
 
-The portfolio is designed to help recruiters and hiring managers quickly:
+The portfolio helps recruiters and hiring managers:
 
-- Understand my background and technical interests
-- Explore my strongest projects
+- Understand my professional background and technical interests
+- Explore academic, personal, and client-focused projects
 - View working project demonstrations
-- Access project source code
-- Learn how my professional experience influences the applications I build
+- Access public source-code repositories
+- Review protected academic projects through public case studies
+- See how my professional experience influences the applications I build
 - Contact me regarding internship and early-career opportunities
 
 ---
 
 ## ✦ PROJECT OVERVIEW ✦
 
-This responsive portfolio connects my Software Engineering education with more than 10 years of professional experience in customer operations, CRM systems, workflow management, and business process improvement.
+This responsive portfolio connects my Software Engineering education with more than 10 years of professional experience in customer operations, CRM systems, workflow management, application support, and business-process improvement.
 
-My professional experience has shown me how technology affects real users. In my current role, I work with customer-facing systems and review AI-assisted conversations for accuracy, context, and successful task completion.
+My professional experience has shown me how technology affects real users. In my current work, I use customer-facing systems and review AI-assisted conversations for accuracy, context, and successful task completion.
 
 I bring that user-focused perspective into applications that organize information, simplify workflows, and help people understand what to do next.
 
 The portfolio currently features:
 
+- Interactive World Map
+- Discovering Georgia Tourism Website
 - Magnolia Grove Rental Experience
 - Leasing Operations Dashboard
 - Software Engineering Portfolio
-- Nicole's Flower Designs
+- Nicole’s Flower Designs
 - Prime Nails by Fernanda
 - A&S Tires
-- DailyFlow as a current development project
+- DailyFlow as a project currently in development
+
+---
+
+## ✦ ACADEMIC RECOGNITION ✦
+
+### 🏆 WGU Excellence Award — Front-End Web Development
+
+My Discovering Georgia project was selected by WGU Evaluation faculty for an Excellence Award based on the exceptional quality of the submitted work.
+
+The evaluator recognized the project’s low-level layouts for being clean, readable, and clearly organized.
+
+[View the Discovering Georgia Project Showcase](https://github.com/angelacoreas1989-boop/georgia-tourism-website-showcase)
 
 ---
 
@@ -118,11 +137,11 @@ The portfolio was designed to:
 - Create a consistent and memorable personal brand
 - Present projects in a clear, scannable format
 - Connect my professional experience with my technical development
-- Give recruiters direct access to live demonstrations and source code
+- Give recruiters access to demonstrations, case studies, and source code
 - Work across desktop, tablet, and mobile screen sizes
 - Support keyboard navigation and reduced-motion preferences
 - Use descriptive text for links and images
-- Keep users informed about demonstration-only project features
+- Keep users informed about demonstration-only features
 
 ---
 
@@ -133,6 +152,8 @@ The portfolio was designed to:
 - Sticky navigation
 - Concise About Me section
 - Professional quick-fact cards
+- Academic project case studies
+- WGU Excellence Award recognition
 - Featured project screenshots
 - Project technology and UX tags
 - Live demonstration links
@@ -151,33 +172,111 @@ The portfolio was designed to:
 
 ## ✦ FEATURED PROJECTS ✦
 
-### Magnolia Grove Rental Experience
+### ✦ Interactive World Map ✦
 
-A responsive apartment-search and rental-application experience that connects availability, screening requirements, policies, and application steps into one clear customer journey.
+An Angular and TypeScript application that allows users to select a country on an SVG world map and view geographic and economic information retrieved from the World Bank API.
 
-**Skills demonstrated:** JavaScript • User Flows • Form Design • Responsive Design
+The application displays the selected country’s name, capital, region, income level, latitude, and longitude.
 
-[Live Demo](https://angelacoreas1989-boop.github.io/apartment-application-portal/) • [Repository](https://github.com/angelacoreas1989-boop/apartment-application-portal)
+**Skills demonstrated:** Angular • TypeScript • REST API Integration • Angular Services • HTTP Requests • SVG Interaction • Event Handling • Dynamic Data Rendering
+
+[View Project Case Study](https://github.com/angelacoreas1989-boop/interactive-world-map-showcase)
 
 ---
 
-### Leasing Operations Dashboard
+### ✦ Discovering Georgia Tourism Website ✦
 
-An interactive employee dashboard for searching applicant records, filtering workflow statuses, reviewing information, and completing simulated leasing decisions.
+A responsive, multi-page tourism website developed for WGU’s Front-End Web Development course.
 
-**Skills demonstrated:** JavaScript • DOM Manipulation • Search • Filtering • Workflow Design
+The website presents Georgia’s history, attractions, state facts, and dedicated pages for Atlanta, Savannah, and Helen.
+
+🏆 **WGU Excellence Award Recipient**
+
+**Skills demonstrated:** HTML • CSS • Responsive Design • Semantic Structure • Information Architecture • Navigation • Tables • Forms • Visual Hierarchy
+
+[View Project Case Study](https://github.com/angelacoreas1989-boop/georgia-tourism-website-showcase)
+
+---
+
+### ✦ Magnolia Grove Rental Experience ✦
+
+A responsive apartment-search and rental-application experience that connects availability, screening requirements, policies, and application steps into one clear customer journey.
+
+The project applies my multifamily industry experience to user flows, complex form organization, information hierarchy, and customer-centered application design.
+
+**Skills demonstrated:** JavaScript • User Flows • Form Design • Responsive Design • Information Architecture • Customer Experience
+
+[Live Demo](https://angelacoreas1989-boop.github.io/apartment-application-portal/) • [Repository](https://github.com/angelacoreas1989-boop/apartment-application-portal)
+
+> Demonstration only. Please do not enter real personal information.
+
+---
+
+### ✦ Leasing Operations Dashboard ✦
+
+An interactive employee dashboard for searching applicant records, filtering workflow statuses, reviewing applicant information, and completing simulated leasing decisions.
+
+The project translates a real-world leasing workflow into a front-end application.
+
+**Skills demonstrated:** JavaScript • DOM Manipulation • Objects and Data Structures • Search • Filtering • Event Handling • Workflow Design
 
 [Live Demo](https://angelacoreas1989-boop.github.io/leasing-application-portal/) • [Repository](https://github.com/angelacoreas1989-boop/leasing-application-portal)
 
 ---
 
-### Nicole's Flower Designs
+### ✦ Software Engineering Portfolio ✦
 
-A responsive floral-business website that helps customers explore services, review event options, and begin a custom quote request.
+A responsive portfolio designed to help recruiters understand my professional background, explore my technical projects, and access live demonstrations, public repositories, and academic case studies.
 
-**Skills demonstrated:** Responsive Design • Visual Design • Customer Workflows
+**Skills demonstrated:** HTML • CSS • JavaScript • Responsive Design • Information Design • Accessibility • GitHub Pages
+
+[Live Portfolio](https://angelacoreas1989-boop.github.io/tech-portfolio/) • [Repository](https://github.com/angelacoreas1989-boop/tech-portfolio)
+
+---
+
+### ✦ Nicole’s Flower Designs ✦
+
+A responsive website created for a family-owned floral business offering custom arrangements, weddings, quinceañeras, Sweet 16 celebrations, wreaths, sympathy arrangements, local delivery, and nationwide shipping.
+
+The project includes service galleries, ordering policies, Instagram integration, and a detailed custom-quote request form with inspiration-photo uploads.
+
+**Skills demonstrated:** Responsive Design • Client Requirements • Visual Design • Form Integration • Customer Workflow • Small-Business Development
 
 [Live Demo](https://angelacoreas1989-boop.github.io/nicole-flower-designs/) • [Repository](https://github.com/angelacoreas1989-boop/nicole-flower-designs)
+
+---
+
+### ✦ Prime Nails by Fernanda ✦
+
+A responsive website created for an independent nail artist to showcase services, pricing, portfolio work, policies, and booking information.
+
+The project focuses on client requirements, visual branding, mobile-friendly design, content organization, and an Instagram-based booking experience.
+
+**Skills demonstrated:** Responsive Design • Visual Branding • Information Layout • Customer Experience • Client-Focused Development
+
+[Live Demo](https://angelacoreas1989-boop.github.io/prime-nails-by-fernanda/) • [Repository](https://github.com/angelacoreas1989-boop/prime-nails-by-fernanda)
+
+---
+
+### ✦ A&S Tires ✦
+
+A responsive business website created for a wholesale tire company offering tire sales, delivery services, quote requests, and ordering information across multiple states.
+
+The project organizes business services, ordering policies, delivery coverage, and customer inquiry options into one professional website.
+
+**Skills demonstrated:** Responsive Design • Business Requirements • Content Organization • Customer Workflow • Professional Branding
+
+[Live Demo](https://angelacoreas1989-boop.github.io/as-tires/) • [Repository](https://github.com/angelacoreas1989-boop/as-tires)
+
+---
+
+## ✦ CURRENTLY BUILDING ✦
+
+### ✦ DailyFlow ✦
+
+A Python productivity application being developed to help users manage tasks, goals, schedules, and daily workflows through a clear and efficient interface.
+
+🚧 **Status:** Currently in development. The repository and demonstration will be published after the first functional version is complete.
 
 ---
 
@@ -185,13 +284,13 @@ A responsive floral-business website that helps customers explore services, revi
 
 <p align="center">
   <img
-    src="https://skillicons.dev/icons?i=html,css,js,git,github,vscode&theme=dark"
-    alt="HTML, CSS, JavaScript, Git, GitHub, and Visual Studio Code"
+    src="https://skillicons.dev/icons?i=angular,typescript,javascript,python,html,css,nodejs,npm,git,github,vscode&theme=dark"
+    alt="Angular, TypeScript, JavaScript, Python, HTML, CSS, Node.js, npm, Git, GitHub, and Visual Studio Code"
   />
 </p>
 
 <p align="center">
-  HTML • CSS • JavaScript • Git • GitHub • VS Code • GitHub Pages
+  Angular • TypeScript • JavaScript • Python • HTML • CSS • SVG • REST APIs • Node.js • npm • Git • GitHub • VS Code • GitHub Pages
 </p>
 
 ---
@@ -200,21 +299,28 @@ A responsive floral-business website that helps customers explore services, revi
 
 ### Development
 
+- Angular application development
+- TypeScript and JavaScript programming
 - Semantic HTML structure
 - CSS layouts and responsive design
-- JavaScript fundamentals
+- REST API integration
+- Angular services and HTTP requests
+- SVG interaction
 - DOM manipulation
+- Event handling
+- Dynamic data rendering
 - Git version control
 - GitHub repository management
 - GitHub Pages deployment
-- Project documentation
+- Professional project documentation
 
 ### Design and User Experience
 
 - Responsive interface design
 - User flows and workflow design
 - Form organization
-- Information hierarchy
+- Information architecture
+- Visual hierarchy
 - Layout, typography, and color
 - Customer-centered problem solving
 - Usability judgment
@@ -225,10 +331,11 @@ A responsive floral-business website that helps customers explore services, revi
 ### Professional Skills
 
 - Translating business workflows into software concepts
+- Gathering and applying business requirements
 - Organizing complex information
 - Evaluating AI-assisted customer interactions
 - Identifying when technology requires human support
-- Communicating technical work to recruiters and hiring managers
+- Communicating technical work to different audiences
 - Bilingual communication in English and Spanish
 
 ---
@@ -251,111 +358,10 @@ A responsive floral-business website that helps customers explore services, revi
 
 ### Portfolio Homepage
 
-![Angela Coreas Portfolio Homepage](assets/portfolio-homepage.png)
+![Angela Coreas Portfolio Homepage](./assets/portfolio-homepage.png)
 
 ### Featured Projects
 
-![Angela Coreas Portfolio Projects Section](assets/projects-section.png)
+![Angela Coreas Portfolio Projects Section](./assets/projects-section.png)
 
-> The portfolio is actively maintained. Screenshots may be updated as the design and project collection evolve.
-
----
-
-## ✦ ACCESSIBILITY IMPROVEMENTS ✦
-
-The portfolio includes several accessibility-focused improvements:
-
-- Semantic `main`, `section`, `article`, and navigation elements
-- A skip-to-main-content link
-- Descriptive alternative text for images
-- Descriptive labels for project links
-- Visible keyboard focus indicators
-- Responsive text and layouts
-- Support for reduced-motion preferences
-- Sufficient separation between interactive elements
-- Clear demonstration-only notices where appropriate
-
----
-
-## ✦ WHAT I LEARNED ✦
-
-Through this project, I strengthened my ability to:
-
-- Structure and deploy a responsive portfolio website
-- Organize information around recruiter and user needs
-- Present projects in a concise, scannable format
-- Connect technical projects with real business problems
-- Improve navigation and content hierarchy
-- Add project screenshots without overwhelming the layout
-- Use accessibility-focused HTML and CSS
-- Create responsive project grids for different screen sizes
-- Document projects as professional case studies
-- Maintain a website through Git and GitHub Pages
-
----
-
-## ✦ FUTURE ENHANCEMENTS ✦
-
-- Add a downloadable résumé
-- Create individual project case-study pages
-- Add a Figma UX case study
-- Add user-flow and wireframe examples
-- Document usability feedback and design revisions
-- Add the Angular World Map project
-- Add the Georgia Tourism website
-- Publish the first functional version of DailyFlow
-- Continue improving accessibility
-- Continue updating screenshots as the portfolio evolves
-
----
-
-## ✦ PROJECT STRUCTURE ✦
-
-```text
-tech-portfolio/
-├── assets/
-│   ├── angela-coreas-banner.png
-│   ├── portfolio-homepage.png
-│   └── projects-section.png
-├── index.html
-├── style.css
-├── script.js
-└── README.md
-```
-
----
-
-## ✦ EDUCATION ✦
-
-**Western Governors University**
-
-Bachelor of Science in Software Engineering  
-Expected Graduation: June 2028
-
----
-
-## ✦ CONTACT ✦
-
-**Angela Coreas**  
-Software Engineering Student • Operations and CRM Professional
-
-**WGU Email:** acorea3@wgu.edu
-
-**LinkedIn:**  
-[linkedin.com/in/angela-coreas-550088186](https://www.linkedin.com/in/angela-coreas-550088186)
-
-**GitHub:**  
-[github.com/angelacoreas1989-boop](https://github.com/angelacoreas1989-boop)
-
-**Portfolio:**  
-[angelacoreas1989-boop.github.io/tech-portfolio](https://angelacoreas1989-boop.github.io/tech-portfolio/)
-
----
-
-<p align="center">
-  <strong>✦ Building Thoughtfully • Learning Continuously • Designing for Real Users ✦</strong>
-</p>
-
-<p align="center">
-  <em>💗 Building consistently. Learning intentionally. Creating real-world solutions. 💗</em>
-</p>
+> The portfolio is actively maintained. Screenshots may change as the design and project
