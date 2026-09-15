@@ -363,6 +363,44 @@ h2 {
   font-size: 0.72rem !important;
 }
 
+.recognition {
+  max-width: 850px;
+}
+
+.recognition-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 25px;
+  border: 1px solid rgba(255, 215, 0, 0.35);
+  border-radius: 16px;
+  background: var(--card);
+  box-shadow: 0 10px 25px rgba(255, 105, 180, 0.08);
+}
+
+.recognition-card h3 {
+  margin-bottom: 8px;
+  color: var(--hot-pink);
+}
+
+.recognition-card p {
+  margin-bottom: 14px;
+  color: var(--muted);
+}
+
+.recognition-card a {
+  color: var(--light-pink);
+  font-weight: 700;
+}
+
+.recognition-card a:hover {
+  color: var(--hot-pink);
+}
+
+.recognition-icon {
+  font-size: 2rem;
+}
+
 .skill-heading {
   margin: 30px 0 15px;
   color: var(--hot-pink);
