@@ -2,7 +2,7 @@
   <img src="assets/angela-coreas-chrome-banner.png" alt="Angela Coreas — Curious mind. Purposeful work." width="100%">
 </p>
 
-<h1 align="center">✦ Angela Coreas — Professional Portfolio ✦</h1>
+<h1 align="center">✦ Angela Ostorga Coreas — Professional Portfolio ✦</h1>
 
 <p align="center">
   A responsive portfolio connecting my experience in customer service,
