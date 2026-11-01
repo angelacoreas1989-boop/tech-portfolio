@@ -24,21 +24,21 @@
 
 ## ✦ Project Overview
 
-This website gives recruiters, hiring teams, and collaborators one place to explore my projects, professional experience, education, and achievements.
+This portfolio brings together my professional experience, academic work, and personal projects in one place.
 
-It brings together more than 10 years of experience working with customers, onsite teams, enterprise software, and operational workflows with my continuing education in software engineering.
+It reflects more than 10 years of experience working with customers, onsite teams, enterprise software, and operational workflows, alongside my continuing education in software engineering at Western Governors University.
 
-The portfolio reflects my interest in customer service, customer experience, operations, application support, technical support, UX, product support, and front-end development.
+The website gives recruiters, hiring teams, and collaborators a way to explore my work, understand my background, and connect with me.
 
 ## ✦ Why I Built It
 
-I wanted a portfolio that shows both the work I’m creating and the experience I bring to it.
+I wanted a portfolio that shows both the projects I’m creating and the experience I bring to them.
 
-My background has taught me to listen carefully, adapt to different personalities, investigate problems, and follow through. Those habits influence how I organize information, design customer journeys, and improve the tools I build.
+Working with people has taught me to listen to understand, adapt my communication, investigate problems, and follow through. Those habits influence how I organize information, approach customer journeys, and improve the tools I build.
 
-I love learning, learn quickly, and give my all to what I do. This portfolio is a place to document that growth through practical projects and real examples.
+I love to learn, adapt quickly, and bring dedication to everything I do. This portfolio documents that growth through practical projects, professional achievements, and continued learning.
 
-## ✦ Features
+## ✦ Portfolio Features
 
 - Responsive layouts for desktop, tablet, and mobile
 - Personalized hot pink, chrome pink, and dark visual design
@@ -46,18 +46,17 @@ I love learning, learn quickly, and give my all to what I do. This portfolio is 
 - Professional experience and measurable work achievements
 - Education and academic recognition
 - Cortland Employee of the Month and Rising Star recognition
-- English, Spanish, Italian, and Portuguese proficiency information
-- School and personal email links
-- Professional references available upon request
-- Section navigation and a skip-to-content link
-- Visible keyboard focus indicators
+- Language skills and proficiency levels
+- Direct contact links
+- Clear section navigation
+- Keyboard focus indicators and a skip-to-content link
 - Reduced-motion support
 
 ## ✦ Featured Projects
 
 ### Portuguese Study Studio
 
-A personalized Brazilian Portuguese learning website with **1,833 study cards across 71 guidebooks**:
+A personalized Brazilian Portuguese learning website with **1,833 study cards across 71 guidebooks**.
 
 | Content | Cards |
 | :--- | ---: |
@@ -66,13 +65,15 @@ A personalized Brazilian Portuguese learning website with **1,833 study cards ac
 | Grammar | 307 |
 | **Total** | **1,833** |
 
-Features include interactive flashcards, browser-powered pronunciation, adjustable speaking speed, search, section and guidebook filters, confidence ratings, Priority Review, progress tracking, and backup/restore.
+The studio includes interactive flashcards, browser-powered pronunciation, adjustable speaking speed, search, section and guidebook filters, confidence ratings, Priority Review, progress tracking, and backup/restore.
+
+The project grew from my own language-learning needs and gave me opportunities to improve content organization, mobile readability, navigation, and pronunciation controls.
 
 [Open Portuguese Study Studio](https://angela-portuguese-flashcards.angelacoreas1989.chatgpt.site/)
 
 ### Italian Study Studio
 
-A separate Italian learning website with **625 study cards**:
+A separate Italian learning website with **625 study cards**.
 
 | Content | Cards |
 | :--- | ---: |
@@ -81,7 +82,7 @@ A separate Italian learning website with **625 study cards**:
 | Grammar | 108 |
 | **Total** | **625** |
 
-Includes interactive flashcards, pronunciation support, search, filtering, confidence ratings, Priority Review, progress tracking, and backup/restore.
+The studio includes interactive flashcards, pronunciation support, search, filtering, confidence ratings, Priority Review, progress tracking, and backup/restore.
 
 Italian and Portuguese content and progress remain independent. Each visitor’s ratings are stored in their own browser.
 
@@ -91,7 +92,7 @@ Italian and Portuguese content and progress remain independent. Each visitor’s
 
 An Angular and TypeScript application that retrieves geographic and economic country information from the World Bank API.
 
-Demonstrates API integration, Angular services, interactive SVG elements, event handling, and dynamic data presentation.
+The project demonstrates API integration, Angular services, interactive SVG elements, event handling, and dynamic data presentation.
 
 [View Project Showcase](https://github.com/angelacoreas1989-boop/interactive-world-map-showcase)
 
@@ -107,7 +108,7 @@ Received a **WGU Excellence Award**. Evaluation faculty praised my wireframes an
 
 An apartment-search and rental-application experience inspired by my professional leasing background.
 
-Connects availability, screening requirements, policies, and application steps into an organized customer journey.
+The project connects availability, screening requirements, policies, and application steps into an organized customer journey.
 
 [Live Demo](https://angelacoreas1989-boop.github.io/apartment-application-portal/) •
 [Repository](https://github.com/angelacoreas1989-boop/apartment-application-portal)
@@ -116,7 +117,7 @@ Connects availability, screening requirements, policies, and application steps i
 
 An interactive dashboard that simulates applicant search, application review, status filtering, and leasing decisions.
 
-Translates familiar operational workflows into a front-end application.
+The project translates familiar operational workflows into a front-end application, with an emphasis on organized information and clear next steps.
 
 [Live Demo](https://angelacoreas1989-boop.github.io/leasing-application-portal/) •
 [Repository](https://github.com/angelacoreas1989-boop/leasing-application-portal)
@@ -131,93 +132,74 @@ Responsive websites focused on clear service information, visual branding, and c
 
 ## ✦ Technologies
 
-The portfolio website uses:
+**Portfolio Website**
 
-- HTML
-- CSS
-- JavaScript
-- Git and GitHub
-- GitHub Pages
+HTML • CSS • JavaScript • Git • GitHub • GitHub Pages
 
-Individual featured projects use additional technologies, including Angular, TypeScript, REST APIs, browser speech synthesis, and localStorage.
+**Featured Project Technologies**
+
+Angular • TypeScript • REST APIs • SVG • Browser Speech Synthesis • localStorage
 
 ## ✦ Design & Development Approach
 
-The portfolio combines expressive pink and chrome visuals with readable text, organized sections, and clear project links.
+I designed the portfolio to reflect my personality while keeping my work and experience easy to explore.
 
-Content emphasizes both my technical learning and my experience working with people, coordinating workflows, investigating issues, and maintaining accurate information.
+The visual design combines pink and chrome accents with readable text, organized sections, and clear project links. The content connects my technical learning with my experience supporting customers, coordinating workflows, investigating issues, and maintaining accurate information.
 
 I refine my projects through repeated use and feedback, paying attention to navigation, readability, mobile usability, and whether the experience supports the task.
 
 The Study Studios were created using AI-assisted development. I curated the learning content, defined the study requirements, guided the visual design, and provided hands-on feedback to improve the experience.
 
-## ✦ Repository Structure
+## ✦ Experience Behind the Projects
 
-```text
-tech-portfolio/
-├── index.html
-├── README.md
-├── assets/
-│   ├── angela-coreas-chrome-banner.png
-│   └── project images
-├── style.css
-└── script.js
-```
+My professional background shapes the way I approach technology and design.
 
-The current portfolio version embeds its CSS and JavaScript directly in `index.html`.
+- **Vivmark Residential / Equity Residential:** Support centralized application, leasing, communication, and systems workflows across 100+ communities.
+- **RPM Living:** Supported 16 communities and provided operational feedback on CRM workflows, follow-up processes, and team handoffs.
+- **Cortland:** Supported 13 communities, exceeded a tour-rate goal, and received Employee of the Month and Rising Star / Rising Superstar recognition.
+- **MAA:** Managed renewals, resident communication, renters-insurance compliance, reporting, and day-to-day leasing operations.
 
-The separate `style.css` and `script.js` files may remain in the repository, but this version does not load them separately.
+Across these roles, I have learned to balance accuracy, empathy, efficiency, and accountability—qualities I bring to both customer-facing work and technical projects.
 
-## ✦ Run Locally
+## ✦ Education & Recognition
 
-1. Download or clone this repository.
-2. Keep `index.html` and the `assets` folder together.
-3. Open `index.html` in a web browser.
+### Western Governors University
 
-No build step or package installation is required.
+**Bachelor of Science in Software Engineering — In Progress**
 
-## ✦ Update the Website
+Continuing to develop my foundation in programming, web development, software design, version control, data management, and user experience.
 
-1. Edit `index.html` to change the website’s content.
-2. Edit the CSS inside its `<style>` element to change its appearance.
-3. Edit the JavaScript inside its `<script>` element to change its behavior.
-4. Add or replace images in the `assets` folder.
-5. Confirm that image filenames match the paths used in the HTML.
-6. Commit changes to the branch configured for GitHub Pages.
-7. Check the repository’s Actions tab for deployment status.
+### Gwinnett Technical College
 
-**README.md documents the project. The live website is controlled by index.html.**
+**Associate Degree — Criminal Justice / Criminology**  
+Completed 2013
 
-## ✦ Deployment
+### Recognition
 
-Hosted on GitHub Pages:
+- **WGU Excellence Award** — Front-End Web Development
+- **Cortland Employee of the Month**
+- **Cortland Rising Star / Rising Superstar honors**
 
-[https://angelacoreas1989-boop.github.io/tech-portfolio/](https://angelacoreas1989-boop.github.io/tech-portfolio/)
+## ✦ Languages
 
-## ✦ Author
+- **English:** Fluent
+- **Spanish:** Native / Bilingual
+- **Italian:** Elementary
+- **Portuguese:** Elementary
+
+## ✦ Open to Opportunities
+
+I’m interested in customer service, customer experience, centralized operations, application processing, and systems or application support roles where I can contribute my experience working with people and solving problems.
+
+I’m also exploring technical support, enterprise software, PropTech, UX, product support, and front-end development opportunities, including Summer 2027 internships.
+
+I bring thoughtful customer care, bilingual communication, adaptability, and a strong commitment to learning. I’m excited to contribute to a team that values collaboration, accountability, and continued growth.
+
+## ✦ Connect With Me
 
 **Angela Ostorga Coreas**
 
 Customer Experience • Operations & Systems Support • Software Engineering Student
-
-My background includes more than 10 years of customer-facing and operational experience, bilingual communication, application processing, escalation management, and enterprise systems support.
-
-### Education
-
-- **Bachelor of Science in Software Engineering**  
-  Western Governors University — In progress
-
-- **Associate Degree — Criminal Justice / Criminology**  
-  Gwinnett Technical College — Completed 2013
-
-### Languages
-
-- English — Fluent
-- Spanish — Native / Bilingual
-- Italian — Elementary
-- Portuguese — Elementary
-
-### Contact
 
 **School Email:** [acorea3@wgu.edu](mailto:acorea3@wgu.edu)  
 **Personal Email:** [ostorga.angelac@gmail.com](mailto:ostorga.angelac@gmail.com)
