@@ -15,7 +15,7 @@
     <strong>Open the Live Portfolio</strong>
   </a>
   •
-  <a href="https://www.linkedin.com/in/angela-coreas-550088186/">LinkedIn</a>
+  <a href="https://www.linkedin.com/in/angela-ostorga-coreas-550088186/">LinkedIn</a>
   •
   <a href="mailto:ostorga.angelac@gmail.com">Contact Me</a>
 </p>
@@ -223,7 +223,7 @@ My background includes more than 10 years of customer-facing and operational exp
 **Personal Email:** [ostorga.angelac@gmail.com](mailto:ostorga.angelac@gmail.com)
 
 [GitHub Profile](https://github.com/angelacoreas1989-boop) •
-[LinkedIn](https://www.linkedin.com/in/angela-coreas-550088186/) •
+[LinkedIn](https://www.linkedin.com/in/angela-ostorga-coreas-550088186/) •
 [Live Portfolio](https://angelacoreas1989-boop.github.io/tech-portfolio/)
 
 **Professional references available upon request.**
