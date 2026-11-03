@@ -1,1021 +1,260 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
 
-  <title>Angela Coreas | Software Engineering and UX Portfolio</title>
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
 
   <meta
     name="description"
-    content="Angela Coreas brings 10+ years of customer service, multifamily operations, and systems support experience, alongside software engineering study and a passion for learning."
-  >
+    content="Angela Coreas — Software Engineering student portfolio featuring front-end development, UX, workflow-focused applications, APIs, and human-centered technology."
+  />
 
-  <meta property="og:title" content="Angela Coreas | Software Engineering and UX Portfolio">
-  <meta
-    property="og:description"
-    content="Bilingual customer service, operations and systems support experience, and thoughtful digital projects built around people."
-  >
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://angelacoreas1989-boop.github.io/tech-portfolio/">
-  <meta
-    property="og:image"
-    content="https://angelacoreas1989-boop.github.io/tech-portfolio/assets/angela-coreas-chrome-banner.png"
-  >
+  <title>Angela Coreas | Software Engineering & UX Portfolio</title>
 
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Angela Coreas | Software Engineering and UX Portfolio">
-  <meta
-    name="twitter:description"
-    content="Bilingual customer service, operations and systems support experience, and thoughtful digital projects built around people."
-  >
-  <meta
-    name="twitter:image"
-    content="https://angelacoreas1989-boop.github.io/tech-portfolio/assets/angela-coreas-chrome-banner.png"
-  >
-
-  <style>
-:root {
-  --pink: #ff4fa3;
-  --hot-pink: #ff69b4;
-  --light-pink: #ffb6c1;
-  --bg: #07070d;
-  --card: rgba(255, 255, 255, 0.06);
-  --border: rgba(255, 255, 255, 0.12);
-  --text: #f5f5f5;
-  --muted: #c7c7d1;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Arial, sans-serif;
-}
-
-html {
-  scroll-behavior: smooth;
-}
-
-body {
-  background: radial-gradient(circle at top, #1a0f1f, var(--bg), #05050a);
-  color: var(--text);
-  overflow-x: hidden;
-  line-height: 1.6;
-}
-
-.skip-link {
-  position: fixed;
-  top: -100px;
-  left: 20px;
-  z-index: 2000;
-  padding: 10px 16px;
-  border-radius: 8px;
-  background: var(--hot-pink);
-  color: #07070d;
-  font-weight: 700;
-  text-decoration: none;
-}
-
-.skip-link:focus {
-  top: 15px;
-}
-
-a:focus-visible {
-  outline: 3px solid var(--light-pink);
-  outline-offset: 4px;
-}
-
-.glow {
-  position: fixed;
-  top: -200px;
-  left: -200px;
-  z-index: -1;
-  width: 700px;
-  height: 700px;
-  background: radial-gradient(
-    circle,
-    rgba(255, 105, 180, 0.18),
-    transparent 70%
-  );
-  animation: floatGlow 10s ease-in-out infinite;
-}
-
-@keyframes floatGlow {
-  0%,
-  100% {
-    transform: translateY(0);
-  }
-
-  50% {
-    transform: translateY(60px);
-  }
-}
-
-nav {
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 35px;
-  padding: 14px 20px;
-  background: rgba(0, 0, 0, 0.7);
-  border-bottom: 1px solid var(--border);
-  backdrop-filter: blur(14px);
-}
-
-nav a {
-  color: var(--muted);
-  font-weight: 500;
-  text-decoration: none;
-  transition: 0.3s;
-}
-
-nav a:hover {
-  color: var(--hot-pink);
-}
-
-.hero {
-  padding: 70px 20px 65px;
-  text-align: center;
-}
-
-.banner {
-  display: block;
-  width: min(88%, 825px);
-  margin: 0 auto 28px;
-  border-radius: 18px;
-  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.35);
-}
-
-.hero h1 {
-  font-size: 3rem;
-  background: linear-gradient(90deg, var(--pink), var(--light-pink));
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.subtitle {
-  max-width: 850px;
-  margin: 10px auto 0;
-  color: var(--light-pink);
-  font-weight: 500;
-}
-
-.tagline {
-  min-height: 25px;
-  margin-top: 10px;
-  color: var(--hot-pink);
-}
-
-.hero-links,
-.cta-buttons {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 12px;
-  margin-top: 20px;
-}
-
-.btn,
-.btn-outline {
-  display: inline-block;
-  padding: 11px 22px;
-  border-radius: 30px;
-  color: white;
-  text-decoration: none;
-  transition: 0.3s;
-}
-
-.btn {
-  background: linear-gradient(135deg, var(--pink), var(--hot-pink));
-  box-shadow: 0 10px 30px rgba(255, 105, 180, 0.25);
-}
-
-.btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 12px 35px rgba(255, 105, 180, 0.35);
-}
-
-.btn-outline {
-  border: 1px solid var(--border);
-  color: var(--light-pink);
-}
-
-.btn-outline:hover {
-  border-color: var(--hot-pink);
-  color: var(--hot-pink);
-}
-
-section {
-  max-width: 1100px;
-  margin: auto;
-  padding: 65px 20px;
-  scroll-margin-top: 60px;
-}
-
-h2 {
-  margin-bottom: 30px;
-  color: var(--light-pink);
-  font-size: 2rem;
-  text-align: center;
-}
-
-.about-content {
-  max-width: 900px;
-  margin: auto;
-}
-
-.about {
-  margin-bottom: 20px;
-  color: var(--muted);
-  line-height: 1.85;
-}
-
-.quick-facts {
-  margin-top: 45px;
-}
-
-.quick-facts h3 {
-  margin-bottom: 20px;
-  color: var(--hot-pink);
-  text-align: center;
-}
-
-.facts-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 15px;
-}
-
-.fact-card {
-  padding: 18px;
-  border: 1px solid var(--border);
-  border-radius: 14px;
-  background: var(--card);
-  transition: 0.3s;
-}
-
-.fact-card:hover {
-  transform: translateY(-5px);
-  border-color: var(--hot-pink);
-  box-shadow: 0 10px 25px rgba(255, 105, 180, 0.15);
-}
-
-.fact-card span {
-  display: block;
-  margin-bottom: 8px;
-  font-size: 1.4rem;
-}
-
-.fact-card p {
-  color: var(--muted);
-}
-
-.projects {
-  max-width: 1180px;
-}
-
-.section-label {
-  margin-bottom: 8px;
-  color: var(--hot-pink);
-  font-size: 0.8rem;
-  letter-spacing: 3px;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.projects-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-}
-
-.project-card {
-  display: flex;
-  min-width: 0;
-  overflow: hidden;
-  flex-direction: column;
-  border: 1px solid var(--border);
-  border-radius: 15px;
-  background: var(--card);
-  transition: 0.3s;
-}
-
-.project-card:hover {
-  transform: translateY(-6px);
-  border-color: var(--hot-pink);
-  box-shadow: 0 10px 25px rgba(255, 105, 180, 0.15);
-}
-
-.project-image {
-  display: block;
-  width: 100%;
-  height: 145px;
-  object-fit: cover;
-  object-position: top center;
-  border-bottom: 1px solid var(--border);
-}
-
-.project-body {
-  display: flex;
-  flex-grow: 1;
-  flex-direction: column;
-  padding: 20px;
-}
-
-.project-type {
-  margin-bottom: 6px;
-  color: var(--light-pink);
-  font-size: 0.72rem;
-  font-weight: 700;
-  letter-spacing: 1.3px;
-  text-transform: uppercase;
-}
-
-.project-card h3 {
-  margin-bottom: 10px;
-  color: var(--hot-pink);
-  line-height: 1.3;
-}
-
-.project-card p {
-  color: var(--muted);
-  font-size: 0.91rem;
-  line-height: 1.6;
-}
-
-.text-project {
-  min-height: 285px;
-}
-
-.project-tags {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-  margin-top: 14px;
-}
-
-.project-tags span {
-  padding: 4px 9px;
-  border: 1px solid rgba(255, 105, 180, 0.35);
-  border-radius: 20px;
-  background: rgba(255, 105, 180, 0.08);
-  color: var(--light-pink);
-  font-size: 0.7rem;
-}
-
-.project-links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  margin-top: auto;
-  padding-top: 16px;
-}
-
-.project-links a {
-  display: inline-block;
-  padding: 7px 12px;
-  border: 1px solid rgba(255, 105, 180, 0.4);
-  border-radius: 20px;
-  color: var(--light-pink);
-  font-size: 0.85rem;
-  font-weight: 600;
-  text-decoration: none;
-}
-
-.project-links a:hover {
-  border-color: var(--hot-pink);
-  background: rgba(255, 105, 180, 0.1);
-  color: var(--hot-pink);
-}
-
-.demo-notice {
-  margin-top: 14px;
-  padding: 8px 10px;
-  border-left: 3px solid var(--hot-pink);
-  background: rgba(255, 105, 180, 0.06);
-  font-size: 0.72rem !important;
-}
-
-.recognition {
-  max-width: 850px;
-}
-
-.recognition-card {
-  display: flex;
-  align-items: flex-start;
-  gap: 20px;
-  padding: 25px;
-  border: 1px solid rgba(255, 215, 0, 0.35);
-  border-radius: 16px;
-  background: var(--card);
-  box-shadow: 0 10px 25px rgba(255, 105, 180, 0.08);
-}
-
-.recognition-card h3 {
-  margin-bottom: 8px;
-  color: var(--hot-pink);
-}
-
-.recognition-card p {
-  margin-bottom: 14px;
-  color: var(--muted);
-}
-
-.recognition-card a {
-  color: var(--light-pink);
-  font-weight: 700;
-}
-
-.recognition-card a:hover {
-  color: var(--hot-pink);
-}
-
-.recognition-icon {
-  font-size: 2rem;
-}
-
-.skill-heading {
-  margin: 30px 0 15px;
-  color: var(--hot-pink);
-  text-align: center;
-}
-
-.skills {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 10px;
-}
-
-.badge {
-  padding: 8px 14px;
-  border: 1px solid var(--border);
-  border-radius: 20px;
-  background: rgba(255, 255, 255, 0.03);
-  color: var(--light-pink);
-}
-
-.learning-skills .badge {
-  border-style: dashed;
-}
-
-.current-project {
-  max-width: 850px;
-}
-
-.building-card {
-  display: flex;
-  align-items: flex-start;
-  gap: 20px;
-  padding: 25px;
-  border: 1px solid var(--border);
-  border-radius: 16px;
-  background: var(--card);
-}
-
-.building-card h3 {
-  margin-bottom: 8px;
-  color: var(--hot-pink);
-}
-
-.building-card p {
-  color: var(--muted);
-}
-
-.building-icon {
-  font-size: 2rem;
-}
-
-.project-status {
-  margin-top: 10px;
-  color: var(--pink) !important;
-  font-weight: 600;
-}
-
-.cta {
-  max-width: 850px;
-  text-align: center;
-}
-
-.cta p {
-  max-width: 750px;
-  margin: 0 auto 16px;
-  color: var(--muted);
-}
-
-.contact-email {
-  margin: 25px auto !important;
-  color: var(--text) !important;
-}
-
-.contact-email span {
-  color: var(--hot-pink);
-  font-weight: 700;
-  user-select: all;
-}
-
-
-footer {
-  padding: 40px 20px;
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
-  color: var(--muted);
-  text-align: center;
-}
-
-.reveal {
-  opacity: 0;
-  transform: translateY(30px);
-  transition: opacity 0.7s ease, transform 0.7s ease;
-}
-
-.reveal.active {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-@media (max-width: 950px) {
-  .projects-grid,
-  .facts-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .hero h1 {
-    font-size: 2.5rem;
-  }
-
-  .banner {
-    width: 94%;
-  }
-}
-
-@media (max-width: 650px) {
-  nav {
-    gap: 16px;
-    padding: 12px;
-    font-size: 0.88rem;
-  }
-
-  .hero {
-    padding: 50px 16px;
-  }
-
-  .banner {
-    width: 100%;
-    border-radius: 12px;
-  }
-
-  .hero h1 {
-    font-size: 2.2rem;
-  }
-
-  .subtitle {
-    font-size: 0.93rem;
-  }
-
-  section {
-    padding: 50px 16px;
-  }
-
-  .projects-grid,
-  .facts-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .project-image {
-    height: 165px;
-  }
-
-  .text-project {
-    min-height: 0;
-  }
-
-  .building-card {
-    flex-direction: column;
-    padding: 22px;
-  }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  html {
-    scroll-behavior: auto;
-  }
-
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    scroll-behavior: auto !important;
-    transition-duration: 0.01ms !important;
-  }
-
-  .reveal {
-    opacity: 1;
-    transform: none;
-  }
-}
-
-/* Experience and recognition additions */
-.experience-content h3 { color: var(--light-pink); margin: 28px 0 8px; }
-.achievement-list { max-width: 760px; margin: 0 auto 28px; padding-left: 24px; color: var(--muted); }
-.achievement-list li { margin-bottom: 10px; }
-.recognition-card + .recognition-card { margin-top: 20px; }
-.project-body > p + p { margin-top: 10px; }
-
-/* Angela's hot pink and chrome portfolio refresh */
-:root {
-  --pink: #ff007a;
-  --hot-pink: #ff1688;
-  --light-pink: #ffc2dc;
-  --bg: #10070b;
-  --card: rgba(20, 9, 15, .92);
-  --border: rgba(255, 144, 192, .38);
-  --text: #fff7fb;
-  --muted: #edd7e1;
-}
-body {
-  font-size: 18px;
-  background-color: var(--bg);
-  background-image:
-    radial-gradient(ellipse at 0% 4%, rgba(255, 0, 106, .42), transparent 42%),
-    radial-gradient(ellipse at 100% 37%, rgba(201, 0, 75, .29), transparent 43%),
-    radial-gradient(ellipse at 5% 79%, rgba(255, 41, 133, .24), transparent 40%),
-    linear-gradient(130deg, #13080d, #260a16 48%, #0c080a);
-}
-body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  z-index: -1;
-  pointer-events: none;
-  background-image:
-    linear-gradient(125deg, transparent 8%, rgba(255, 185, 215, .13) 8.2%, #540c29 8.5%, rgba(255, 216, 233, .23) 8.7%, transparent 9%),
-    linear-gradient(125deg, transparent 88%, rgba(255, 185, 215, .16) 88.2%, #600b2a 88.6%, rgba(255, 216, 233, .18) 88.9%, transparent 89.1%),
-    radial-gradient(circle at 8% 30%, #ffafcf 0 1px, transparent 2px),
-    radial-gradient(circle at 92% 65%, #ffd5e6 0 1px, transparent 2px);
-  background-size: auto, auto, 190px 270px, 310px 410px;
-}
-nav { background: rgba(17, 6, 12, .94); font-size: 1rem; }
-nav a { font-weight: 700; }
-.hero { max-width: 1320px; margin: auto; padding: 38px 24px 50px; }
-.banner {
-  width: 100%;
-  max-width: 1200px;
-  height: auto;
-  margin-bottom: 34px;
-  border: 1px solid rgba(255, 167, 205, .6);
-  border-radius: 24px;
-  box-shadow: 0 22px 80px #0009, 0 0 42px #ff007a28;
-}
-.hero h1, h2, .project-card h3, .recognition-card h3, .experience-content h3 {
-  font-family: Georgia, 'Times New Roman', serif;
-}
-.hero h1 {
-  font-size: clamp(3rem, 6.7vw, 5.7rem);
-  font-style: italic;
-  font-weight: 700;
-  line-height: 1.18;
-  letter-spacing: -2px;
-  color: #ff80b7;
-  background: linear-gradient(180deg, #fff4fa 5%, #ffb7d4 30%, #f52b83 48%, #ffa5ca 56%, #ff2786 80%, #fff1f7 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  filter: drop-shadow(0 3px 10px #0009);
-}
-.hero-eyebrow {
-  color: #ffb4d2;
-  font-size: .85rem;
-  letter-spacing: .18em;
-  font-weight: 700;
-  margin-bottom: 14px;
-}
-.subtitle { font-size: clamp(1.05rem, 1.8vw, 1.3rem); max-width: 960px; margin-top: 18px; }
-.tagline { color: #ffd1e4; font-size: 1.12rem; min-height: 3.4em; margin-top: 12px; }
-h2 { font-size: clamp(2.15rem, 4vw, 3.15rem); line-height: 1.25; letter-spacing: -.035em; color: #ffb2d1; }
-h3 { line-height: 1.35; }
-.project-card h3 { font-size: 1.6rem; color: #ff8ebc; }
-.recognition-card h3, .experience-content h3 { font-size: 1.45rem; }
-section { padding: 48px 30px; margin-bottom: 26px; scroll-margin-top: 90px; }
-#about, #experience, #skills, #contact {
-  background: linear-gradient(140deg, rgba(36, 13, 24, .94), rgba(14, 9, 12, .95));
-  border: 1px solid var(--border);
-  border-radius: 28px;
-  box-shadow: 0 18px 55px #0004, inset 0 1px 0 #ffc8df15;
-}
-.about, .achievement-list { font-size: 1.08rem; line-height: 1.85; }
-.about-content { max-width: 920px; }
-.project-card, .recognition-card, .fact-card {
-  background: linear-gradient(140deg, #2b101d, #120c10 65%);
-  border-color: var(--border);
-}
-.project-image { height: 180px; }
-.project-card p { font-size: 1rem; line-height: 1.7; }
-.project-card .project-type { font-size: .76rem; color: #ffadd0; }
-.project-tags span { font-size: .8rem; }
-.project-links a { font-size: .95rem; padding: 10px 15px; }
-.section-label { font-size: .85rem; color: #ff8cbb; }
-.fact-card p { font-size: 1rem; }
-.btn { background: linear-gradient(165deg, #ffc4df, #ff298b 35%, #ed006b 62%, #ff2488); border: 1px solid #ff99c4; font-weight: 700; }
-.btn-outline { background: #190c13; border-color: #ff82b450; }
-.btn, .btn-outline { font-size: 1rem; padding: 13px 25px; }
-.badge { font-size: 1rem; }
-.recognition-card { border-color: #ff8cbb80; }
-footer { color: #ffc2dc; font-size: 1rem; }
-@media (max-width: 650px) {
-  body { font-size: 17px; }
-  nav { gap: 10px 18px; font-size: .9rem; }
-  .hero { padding: 24px 14px 32px; }
-  .banner { width: 100%; border-radius: 16px; margin-bottom: 26px; }
-  .hero h1 { font-size: clamp(2.5rem, 10vw, 4rem); letter-spacing: -1.5px; }
-  .hero-eyebrow { font-size: .7rem; letter-spacing: .12em; }
-  .subtitle { font-size: 1.05rem; }
-  .tagline { font-size: 1rem; }
-  section { padding: 32px 20px; margin: 0 12px 22px; border-radius: 20px !important; }
-  .about, .achievement-list { font-size: 1rem; }
-  .project-body { padding: 22px; }
-  .project-image { height: auto; aspect-ratio: 2.4; object-fit: cover; }
-  .recognition-card { padding: 20px; gap: 12px; }
-  .hero-links .btn, .hero-links .btn-outline { padding: 12px 18px; }
-}
-
-/* Education, broader career focus, and accessible banner name */
-.visually-hidden {
-  position: absolute !important;
-  width: 1px !important; height: 1px !important;
-  padding: 0 !important; margin: -1px !important;
-  overflow: hidden !important; clip: rect(0, 0, 0, 0) !important;
-  white-space: nowrap !important; border: 0 !important;
-}
-#education {
-  background: linear-gradient(140deg, rgba(36, 13, 24, .94), rgba(14, 9, 12, .95));
-  border: 1px solid var(--border); border-radius: 28px;
-  box-shadow: 0 18px 55px #0004, inset 0 1px 0 #ffc8df15;
-}
-.contact-email a { color: #ffc2dc; overflow-wrap: anywhere; }
-.references-note { margin-top: 20px; color: #ffb4d2; font-style: italic; }
-
-</style>
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  <a class="skip-link" href="#main-content">Skip to main content</a>
 
-  <div class="glow" aria-hidden="true"></div>
+  <!-- =========================
+       NAVIGATION
+  ========================== -->
+  <header class="site-header">
+    <nav class="navbar" aria-label="Main navigation">
 
-  <nav aria-label="Main navigation">
-    <a href="#about">About</a>
-    <a href="#experience">Experience</a>
-    <a href="#projects">Projects</a>
-    <a href="#skills">Skills</a>
-    <a href="#contact">Contact</a>
-  </nav>
-
-  <header class="hero reveal">
-    <img
-      src="assets/angela-coreas-chrome-banner.png"
-      alt="Angela Coreas — Curious mind. Purposeful work. Hot pink chrome lettering framed by lilies and metallic ribbons."
-      class="banner"
-    >
-
-    <p class="hero-eyebrow">CURIOUS BY NATURE · DEDICATED TO GROWTH</p>
-    <h1 class="visually-hidden">Angela Coreas — Professional Portfolio</h1>
-
-    <p class="subtitle">
-      Customer Experience • Operations &amp; Systems Support • Software Engineering Student
-    </p>
-
-    <p id="typing" class="tagline" aria-live="polite"></p>
-
-    <div class="hero-links">
-      <a
-        class="btn-outline"
-        href="https://www.linkedin.com/in/angela-coreas-550088186"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        LinkedIn
+      <a class="logo" href="#top">
+        ✦ Angela Coreas ✦
       </a>
 
-      <a
-        class="btn-outline"
-        href="https://github.com/angelacoreas1989-boop"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GitHub
-      </a>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#learning">Learning</a>
+        <a href="#contact">Contact</a>
+      </div>
 
-      <a class="btn" href="#projects">View Projects</a>
-    </div>
+    </nav>
   </header>
 
-  <main id="main-content">
-    <section id="about" class="reveal">
-      <h2>✦ About Me ✦</h2>
+
+  <main id="top">
+
+    <!-- =========================
+         HERO
+    ========================== -->
+    <section class="hero">
+
+      <div class="hero-content">
+
+        <p class="eyebrow">
+          SOFTWARE ENGINEERING • UX • HUMAN-CENTERED TECHNOLOGY
+        </p>
+
+        <h1>
+          ✦ Angela Coreas ✦
+        </h1>
+
+        <p class="hero-subtitle">
+          Software Engineering Student • Human-Centered Technology •
+          Workflow-Focused Applications
+        </p>
+
+        <p class="hero-description">
+          Building technology around people, workflows, and real-world problems.
+        </p>
+
+        <div class="hero-buttons">
+
+          <a
+            class="button primary-button"
+            href="https://www.linkedin.com/in/angela-coreas-550088186"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
+
+          <a
+            class="button secondary-button"
+            href="https://github.com/angelacoreas1989-boop"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
+
+          <a
+            class="button secondary-button"
+            href="#projects"
+          >
+            View Projects
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         ABOUT
+    ========================== -->
+    <section id="about" class="section about-section">
+
+      <div class="section-heading">
+        <p class="section-kicker">✦ ABOUT ME ✦</p>
+
+        <h2>
+          Where people, technology & real-world problems meet.
+        </h2>
+      </div>
 
       <div class="about-content">
-        <p class="about">
-          I’m Angela, and I love to learn about everything. Whether I’m learning
-          a new system, exploring a language, or understanding someone’s point of
-          view, I’m curious, learn quickly, and give my all to whatever I do.
-          I’m pursuing a B.S. in Software Engineering at Western Governors University
-          and bring more than 10 years of experience working with people in
-          customer service, multifamily operations, centralized leasing, and systems support.
+
+        <p>
+          Hi, I’m Angela — a Software Engineering student at Western
+          Governors University with a professional background in
+          multifamily operations, customer experience, property technology,
+          and workflow problem-solving.
         </p>
-        <p class="about">
-          Connecting with people is one of my strengths. I get along with a wide
-          range of personalities and adapt my communication to help each person feel
-          comfortable, heard, and respected. I listen to understand, not simply to
-          respond. When someone comes to me with a question or concern, I take time
-          to understand what they need and follow through on the next steps.
+
+        <p>
+          My experience has taught me that good technology needs to do
+          more than simply work. It should help people understand what is
+          happening, know what to do next, and recover easily when
+          something goes wrong.
         </p>
-        <p class="about">
-          My work has taught me to stay patient during difficult conversations,
-          balance high-volume responsibilities, and bring care and accuracy to the
-          details. I enjoy helping customers, collaborating with teammates, and
-          working through problems together. I’m adaptable, dedicated, and willing
-          to learn what’s needed to support the people who depend on me.
+
+        <p>
+          That perspective shapes the projects I build. I’m especially
+          interested in user experience, front-end development, business
+          systems, AI-assisted workflows, process improvement, and
+          technology that makes complicated tasks feel simpler.
         </p>
-        <p class="about">
-          I bring that same mindset to technology. My projects draw on real
-          customer and business workflows, small-business needs, and my own language
-          studies. I speak English and Spanish and have elementary knowledge of
-          Italian and Portuguese. Learning, building, and connecting with people
-          are all part of the career I’m continuing to grow.
+
+        <p>
+          I’m currently growing my skills in software development,
+          databases, UX/UI design, APIs, and human-centered technology
+          while building projects that connect what I’m learning with
+          real-world problems.
         </p>
+
       </div>
 
+
+      <!-- QUICK FACTS -->
       <div class="quick-facts">
-        <h3>✦ Quick Facts ✦</h3>
 
-        <div class="facts-grid">
-          <div class="fact-card">
-            <span aria-hidden="true">🎓</span>
-            <p>Software Engineering Student at WGU</p>
-          </div>
+        <article class="fact-card">
+          <div class="fact-icon" aria-hidden="true">🎓</div>
+          <h3>Software Engineering</h3>
+          <p>
+            B.S. Software Engineering student at Western Governors University
+          </p>
+        </article>
 
-          <div class="fact-card">
-            <span aria-hidden="true">💼</span>
-            <p>10+ Years of Operations, CRM and Workflow Experience</p>
-          </div>
 
-          <div class="fact-card">
-            <span aria-hidden="true">🤖</span>
-            <p>Supporting Systems Workflows Across 100+ Communities</p>
-          </div>
+        <article class="fact-card">
+          <div class="fact-icon" aria-hidden="true">💗</div>
+          <h3>Human-Centered Technology</h3>
+          <p>
+            Interested in UX, workflow design, accessibility, and clear user experiences
+          </p>
+        </article>
 
-          <div class="fact-card">
-            <span aria-hidden="true">💗</span>
-            <p>WGU Excellence Award • Front-End Web Development</p>
-          </div>
 
-          <div class="fact-card">
-            <span aria-hidden="true">💻</span>
-            <p>HTML • CSS • JavaScript • TypeScript • Angular • Python • Git</p>
-          </div>
+        <article class="fact-card">
+          <div class="fact-icon" aria-hidden="true">🤖</div>
+          <h3>Human + AI</h3>
+          <p>
+            Interested in how people interact with AI-assisted systems and automated workflows
+          </p>
+        </article>
 
-          <div class="fact-card">
-            <span aria-hidden="true">🌎</span>
-            <p>English &amp; Spanish • Elementary Italian &amp; Portuguese</p>
-          </div>
-        </div>
+
+        <article class="fact-card">
+          <div class="fact-icon" aria-hidden="true">💻</div>
+          <h3>Development</h3>
+          <p>
+            HTML • CSS • JavaScript • TypeScript • Angular • Python • Git
+          </p>
+        </article>
+
+
+        <article class="fact-card">
+          <div class="fact-icon" aria-hidden="true">🧠</div>
+          <h3>Problem Solving</h3>
+          <p>
+            Workflow analysis • Customer journeys • Systems thinking • Process improvement
+          </p>
+        </article>
+
+
+        <article class="fact-card">
+          <div class="fact-icon" aria-hidden="true">🌎</div>
+          <h3>Bilingual</h3>
+          <p>
+            Native Spanish speaker and fluent in English
+          </p>
+        </article>
+
       </div>
+
     </section>
 
-    <section id="education" class="reveal">
-      <p class="section-label">Education &amp; Continued Learning</p>
-      <h2>✦ Education ✦</h2>
-      <div class="about-content experience-content">
-        <h3>Bachelor of Science in Software Engineering</h3>
-        <p class="about"><strong>Western Governors University · In progress</strong><br>
-          Developing my foundation in programming, web development, software design,
-          version control, data management, and user experience.</p>
-        <h3>Associate Degree · Criminal Justice / Criminology</h3>
-        <p class="about"><strong>Gwinnett Technical College</strong><br>Completed 2013</p>
-      </div>
-    </section>
 
-    <section id="experience" class="reveal">
-      <p class="section-label">Professional Experience</p>
-      <h2>✦ People, Systems &amp; Follow-Through ✦</h2>
-      <div class="about-content experience-content">
-        <h3>Vivmark Residential / Equity Residential</h3>
-        <p class="about"><strong>Centralized Leasing Specialist - Application Processing &amp; Systems Support</strong><br>Feb 2025 - Present</p>
-        <ul class="achievement-list">
-          <li>Support centralized application, leasing, communication, and systems workflows across 100+ communities, coordinating with onsite teams to keep high-volume work moving accurately and on time.</li>
-          <li>Investigate workflow and system issues across MRI Software, EliseAI, Anyone Home, and connected processes; gather facts, identify breakdown points, document findings, and coordinate next steps with the appropriate teams.</li>
-          <li>Manage escalations by clarifying the issue, assessing customer and operational impact, tracking status, and maintaining communication until resolution.</li>
-          <li>Review AI-assisted customer interactions for accuracy, context, repetition, usefulness, and unresolved needs, surfacing patterns and situations that require human intervention or process adjustment.</li>
-          <li>Handle 200+ inbound contacts weekly and maintain 150+ active prospects while consistently achieving 95-100% quality scores and 97%+ schedule adherence.</li>
-        </ul>
-        <h3>RPM Living</h3>
-        <p class="about"><strong>Portfolio Leasing Associate - Centralized Operations</strong><br>Mar 2024 - May 2025</p>
-        <ul class="achievement-list">
-          <li>Supported 16 communities as part of a centralized leasing model, balancing high-volume customer work with application follow-up, CRM documentation, and coordination with onsite teams.</li>
-          <li>Worked directly with Funnel Leasing and provided operational feedback on follow-up and task-creation workflows based on recurring issues observed in day-to-day leasing activity.</li>
-          <li>Helped identify process gaps and communication breakdowns between centralized and onsite teams and provided practical feedback to improve handoffs, consistency, and customer experience.</li>
-        </ul>
-        <h3>Cortland</h3>
-        <p class="about"><strong>Bilingual Leasing Hub Associate</strong><br>Feb 2023 - Sep 2023</p>
-        <ul class="achievement-list">
-          <li>Provided centralized support across 13 communities while maintaining approximately 98% call-quality performance, 100% guest-card calibration, and a 65% tour rate against a 60% goal.</li>
-          <li>Took initiative to identify recurring communication and workflow problems between onsite teams and the Leasing Hub and proposed solutions to improve handoffs and collaboration.</li>
-          <li>Selected to travel to Florida because of that initiative to help address and mediate issues between onsite teams and centralized operations, demonstrating leadership and cross-team problem solving.</li>
-          <li>Received Cortland recognition including Employee of the Month and Rising Star / Rising Superstar honors for performance and contribution to the team.</li>
-        </ul>
-        <h3>MAA</h3>
-        <p class="about"><strong>Leasing, Renewals &amp; Resident Operations</strong><br>Feb 2019 - Feb 2023</p>
-        <ul class="achievement-list">
-          <li>Managed the full lease-renewal process from resident outreach through execution, including follow-up, retention efforts, documentation, and coordination of outstanding requirements.</li>
-          <li>Negotiated renewal pricing with residents using approved rent recommendations and balanced retention goals with property pricing and operational objectives.</li>
-          <li>Managed renters-insurance compliance by identifying missing or expired coverage, communicating requirements, resolving policy or charge issues, and following through until accounts were compliant.</li>
-          <li>Ran and reviewed Yardi Voyager renewal and renters-insurance reports, maintained accurate records, and used reporting to identify accounts requiring action and prioritize follow-up.</li>
-          <li>Supported applications, move-ins, resident account questions, lease changes, and day-to-day property operations with strong attention to documentation and data accuracy.</li>
-        </ul>
-      </div>
-    </section>
+    <!-- =========================
+         PROJECTS
+    ========================== -->
+    <section id="projects" class="section projects-section">
 
-    <section id="projects" class="projects reveal">
-      <p class="section-label">Featured Work</p>
-      <h2>✦ Projects ✦</h2>
-      <p class="about">From everyday study habits to customer and business workflows,
-        these projects show how I turn curiosity into practical tools and refine
-        them through use, feedback, and continued learning.</p>
-      <p class="about">For my Study Studios, I curated the learning content and used
-        AI-assisted development to turn my study needs into working websites.
-        I guided the design and improvements through hands-on review of mobile
-        usability, card visibility, navigation, and pronunciation audio.</p>
+      <div class="section-heading">
+        <p class="section-kicker">FEATURED WORK</p>
+        <h2>✦ Projects ✦</h2>
+
+        <p class="section-description">
+          A collection of academic, personal, and real-world projects
+          focused on usability, workflows, responsive design, and practical
+          problem-solving.
+        </p>
+      </div>
+
 
       <div class="projects-grid">
 
-        <article class="project-card">
-          <img class="project-image" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NjAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgOTYwIDQwMCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsbGVkYnk9InRpdGxlIGRlc2MiPgo8dGl0bGUgaWQ9InRpdGxlIj5Qb3J0dWd1ZXNlIFN0dWR5IFN0dWRpbyBwcm9qZWN0IHByZXZpZXc8L3RpdGxlPjxkZXNjIGlkPSJkZXNjIj5Ib3QgcGluayBhbmQgY2hyb21lIGdyYXBoaWMgZm9yIGEgMSw4MzMtY2FyZCBsYW5ndWFnZSBzdHVkeSBhcHAuPC9kZXNjPgo8ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImJnIiB4Mj0iMSIgeTI9IjEiPjxzdG9wIHN0b3AtY29sb3I9IiM3ZDAwMzciLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiMxNjBkMTIiLz48L2xpbmVhckdyYWRpZW50PjxsaW5lYXJHcmFkaWVudCBpZD0icGluayIgeDI9IjAiIHkyPSIxIj48c3RvcCBzdG9wLWNvbG9yPSIjZmZlM2VmIi8+PHN0b3Agb2Zmc2V0PSIuNCIgc3RvcC1jb2xvcj0iI2ZmOGNiZCIvPjxzdG9wIG9mZnNldD0iLjU1IiBzdG9wLWNvbG9yPSIjZmYwMDc1Ii8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjZmY3MWFlIi8+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9Im1ldGFsIj48c3RvcCBzdG9wLWNvbG9yPSIjNGUyNjM2Ii8+PHN0b3Agb2Zmc2V0PSIuNCIgc3RvcC1jb2xvcj0iI2ZmZTVlZiIvPjxzdG9wIG9mZnNldD0iLjYiIHN0b3AtY29sb3I9IiM4YTQwNWQiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNmZmI3ZDUiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz4KPHJlY3Qgd2lkdGg9Ijk2MCIgaGVpZ2h0PSI0MDAiIGZpbGw9InVybCgjYmcpIi8+PHBhdGggZD0iTS00MCAyMCBRMjgwIDI1MCA3MDAgLTUwIE0tMzAgNjUgUTI5MCAyOTAgNzMwIC0zMCIgZmlsbD0ibm9uZSIgc3Ryb2tlPSJ1cmwoI21ldGFsKSIgc3Ryb2tlLXdpZHRoPSI5IiBvcGFjaXR5PSIuNjUiLz4KPHJlY3QgeD0iNjgiIHk9IjgyIiB3aWR0aD0iODI0IiBoZWlnaHQ9IjI0NiIgcng9IjI2IiBmaWxsPSIjMTcxMTE1IiBzdHJva2U9IiNmZjgzYjYiLz4KPGcgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj48dGV4dCB4PSI0ODAiIHk9IjEzMSIgZmlsbD0iI2ZmZDFlNSIgZm9udC1zaXplPSIxNyIgbGV0dGVyLXNwYWNpbmc9IjQiPklOVEVSQUNUSVZFIExBTkdVQUdFIFNUVURZPC90ZXh0Pjx0ZXh0IHg9IjQ4MCIgeT0iMTg5IiBmaWxsPSJ1cmwoI3BpbmspIiBmb250LXNpemU9IjQzIiBmb250LXdlaWdodD0iNzAwIj5Qb3J0dWd1ZXNlIFN0dWR5IFN0dWRpbzwvdGV4dD48dGV4dCB4PSI0ODAiIHk9IjIzNSIgZmlsbD0iI2ZmZjJmOCIgZm9udC1zaXplPSIyNSI+MSw4MzMgc3R1ZHkgY2FyZHM8L3RleHQ+PHRleHQgeD0iNDgwIiB5PSIyODAiIGZpbGw9IiNmZmJhZDciIGZvbnQtc2l6ZT0iMjAiPlZvY2FidWxhcnkgwrcgU2VudGVuY2VzIMK3IEdyYW1tYXIgwrcgUHJpb3JpdHkgcmV2aWV3PC90ZXh0PjwvZz48L3N2Zz4="
-            alt="Portuguese Study Studio: 1,833 cards across vocabulary, sentences, and grammar" loading="lazy">
-          <div class="project-body">
-            <p class="project-type">Personal Product • Language Learning</p>
-            <h3>Portuguese Study Studio</h3>
-            <p>Organized 71 guidebooks into a searchable Brazilian Portuguese study app with 1,833 vocabulary, sentence, and grammar cards.</p>
-            <p>Designed around repeated study: section and guidebook filters, pronunciation with adjustable speed, confidence ratings, and priority review.</p>
-            <p><strong>936 vocabulary · 590 sentences · 307 grammar</strong></p>
-            <p>Progress stays in each visitor’s browser, with backup and restore tools.</p>
-            <div class="project-tags" aria-label="Project skills">
-              <span>HTML</span><span>CSS</span><span>JavaScript</span>
-              <span>Speech Synthesis</span><span>localStorage</span><span>Information Architecture</span>
-            </div>
-            <div class="project-links">
-              <a href="https://angela-portuguese-flashcards.angelacoreas1989.chatgpt.site/"
-                target="_blank" rel="noopener noreferrer"
-                aria-label="Open the live Portuguese Study Studio">Live Demo ↗</a>
-            </div>
-          </div>
-        </article>
 
+        <!-- WORLD MAP -->
         <article class="project-card">
-          <img class="project-image" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5NjAiIGhlaWdodD0iNDAwIiB2aWV3Qm94PSIwIDAgOTYwIDQwMCIgcm9sZT0iaW1nIiBhcmlhLWxhYmVsbGVkYnk9InRpdGxlIGRlc2MiPgo8dGl0bGUgaWQ9InRpdGxlIj5JdGFsaWFuIFN0dWR5IFN0dWRpbyBwcm9qZWN0IHByZXZpZXc8L3RpdGxlPjxkZXNjIGlkPSJkZXNjIj5Ib3QgcGluayBhbmQgY2hyb21lIGdyYXBoaWMgZm9yIGEgNjI1LWNhcmQgbGFuZ3VhZ2Ugc3R1ZHkgYXBwLjwvZGVzYz4KPGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJiZyIgeDI9IjEiIHkyPSIxIj48c3RvcCBzdG9wLWNvbG9yPSIjN2QwMDM3Ii8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMTYwZDEyIi8+PC9saW5lYXJHcmFkaWVudD48bGluZWFyR3JhZGllbnQgaWQ9InBpbmsiIHgyPSIwIiB5Mj0iMSI+PHN0b3Agc3RvcC1jb2xvcj0iI2ZmZTNlZiIvPjxzdG9wIG9mZnNldD0iLjQiIHN0b3AtY29sb3I9IiNmZjhjYmQiLz48c3RvcCBvZmZzZXQ9Ii41NSIgc3RvcC1jb2xvcj0iI2ZmMDA3NSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2ZmNzFhZSIvPjwvbGluZWFyR3JhZGllbnQ+PGxpbmVhckdyYWRpZW50IGlkPSJtZXRhbCI+PHN0b3Agc3RvcC1jb2xvcj0iIzRlMjYzNiIvPjxzdG9wIG9mZnNldD0iLjQiIHN0b3AtY29sb3I9IiNmZmU1ZWYiLz48c3RvcCBvZmZzZXQ9Ii42IiBzdG9wLWNvbG9yPSIjOGE0MDVkIi8+PHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjZmZiN2Q1Ii8+PC9saW5lYXJHcmFkaWVudD48L2RlZnM+CjxyZWN0IHdpZHRoPSI5NjAiIGhlaWdodD0iNDAwIiBmaWxsPSJ1cmwoI2JnKSIvPjxwYXRoIGQ9Ik0tNDAgMjAgUTI4MCAyNTAgNzAwIC01MCBNLTMwIDY1IFEyOTAgMjkwIDczMCAtMzAiIGZpbGw9Im5vbmUiIHN0cm9rZT0idXJsKCNtZXRhbCkiIHN0cm9rZS13aWR0aD0iOSIgb3BhY2l0eT0iLjY1Ii8+CjxyZWN0IHg9IjY4IiB5PSI4MiIgd2lkdGg9IjgyNCIgaGVpZ2h0PSIyNDYiIHJ4PSIyNiIgZmlsbD0iIzE3MTExNSIgc3Ryb2tlPSIjZmY4M2I2Ii8+CjxnIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+PHRleHQgeD0iNDgwIiB5PSIxMzEiIGZpbGw9IiNmZmQxZTUiIGZvbnQtc2l6ZT0iMTciIGxldHRlci1zcGFjaW5nPSI0Ij5JTlRFUkFDVElWRSBMQU5HVUFHRSBTVFVEWTwvdGV4dD48dGV4dCB4PSI0ODAiIHk9IjE4OSIgZmlsbD0idXJsKCNwaW5rKSIgZm9udC1zaXplPSI0MyIgZm9udC13ZWlnaHQ9IjcwMCI+SXRhbGlhbiBTdHVkeSBTdHVkaW88L3RleHQ+PHRleHQgeD0iNDgwIiB5PSIyMzUiIGZpbGw9IiNmZmYyZjgiIGZvbnQtc2l6ZT0iMjUiPjYyNSBzdHVkeSBjYXJkczwvdGV4dD48dGV4dCB4PSI0ODAiIHk9IjI4MCIgZmlsbD0iI2ZmYmFkNyIgZm9udC1zaXplPSIyMCI+Vm9jYWJ1bGFyeSDCtyBTZW50ZW5jZXMgwrcgR3JhbW1hciDCtyBQcmlvcml0eSByZXZpZXc8L3RleHQ+PC9nPjwvc3ZnPg=="
-            alt="Italian Study Studio: 625 cards across vocabulary, sentences, and grammar" loading="lazy">
-          <div class="project-body">
-            <p class="project-type">Personal Product • Language Learning</p>
-            <h3>Italian Study Studio</h3>
-            <p>A personalized Italian study app with 625 vocabulary, sentence, and grammar cards, built around a responsive, touch-friendly review flow.</p>
-            <p>Refined through real study sessions with search, section and unit filters, browser pronunciation, confidence ratings, and priority review.</p>
-            <p><strong>300 vocabulary · 217 sentences · 108 grammar</strong></p>
-            <p>Progress stays in each visitor’s browser, with backup and restore tools.</p>
-            <div class="project-tags" aria-label="Project skills">
-              <span>HTML</span><span>CSS</span><span>JavaScript</span>
-              <span>Speech Synthesis</span><span>localStorage</span><span>Responsive Design</span>
-            </div>
-            <div class="project-links">
-              <a href="https://angela-italian-flashcards.angelacoreas1989.chatgpt.site/"
-                target="_blank" rel="noopener noreferrer"
-                aria-label="Open the live Italian Study Studio">Live Demo ↗</a>
-            </div>
-          </div>
-        </article>
-        <article class="project-card">
+
           <img
+            src="assets/world-map-project.png"
+            alt="Interactive world map application displaying country information"
             class="project-image"
-            src="assets/world-map-preview.png"
-            alt="Interactive world map displaying information for the United States"
-            loading="lazy"
-          >
+          />
 
-          <div class="project-body">
-            <p class="project-type">Academic Project • API Integration</p>
-            <h3>Interactive World Map</h3>
+          <div class="project-content">
 
-            <p>
-              An Angular and TypeScript application that lets users select a
-              country on an SVG map and view geographic and economic data
-              retrieved from the World Bank API.
+            <p class="project-type">
+              Academic Project • API Integration
             </p>
 
-            <div class="project-tags" aria-label="Project skills">
+            <h3>
+              Interactive World Map
+            </h3>
+
+            <p>
+              An Angular and TypeScript application that lets users select
+              a country on an SVG map and view geographic and economic
+              information retrieved from the World Bank API.
+            </p>
+
+            <div class="tag-list">
               <span>Angular</span>
               <span>TypeScript</span>
               <span>REST API</span>
@@ -1024,36 +263,50 @@ footer { color: #ffc2dc; font-size: 1rem; }
 
             <div class="project-links">
               <a
-                href="https://github.com/angelacoreas1989-boop/interactive-world-map-showcase"
+                href="https://github.com/angelacoreas1989-boop"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="View the Interactive World Map project case study"
               >
                 View Case Study
               </a>
             </div>
+
           </div>
+
         </article>
 
+
+        <!-- GEORGIA -->
         <article class="project-card">
+
           <img
+            src="assets/georgia-tourism.png"
+            alt="Discovering Georgia responsive tourism website"
             class="project-image"
-            src="assets/georgia-tourism-preview.png"
-            alt="Discovering Georgia responsive tourism website homepage"
-            loading="lazy"
-          >
+          />
 
-          <div class="project-body">
-            <p class="project-type">Academic Project • Award Recipient</p>
-            <h3>Discovering Georgia Tourism Website</h3>
+          <div class="project-content">
 
-            <p>
-              A responsive multi-page website featuring Georgia destinations,
-              state facts, navigation, tables, and organized visual content.
-              Recognized with a WGU Excellence Award for its clean, readable wireframes and page layouts.
+            <p class="project-type">
+              Academic Project • Award Recipient
             </p>
 
-            <div class="project-tags" aria-label="Project skills">
+            <h3>
+              Discovering Georgia Tourism Website
+            </h3>
+
+            <p>
+              A responsive multi-page website featuring Georgia
+              destinations, state facts, structured navigation, tables,
+              and organized visual content.
+            </p>
+
+            <p>
+              The project received a WGU Excellence Award for the quality
+              and organization of its layouts.
+            </p>
+
+            <div class="tag-list">
               <span>HTML</span>
               <span>CSS</span>
               <span>Responsive Design</span>
@@ -1062,36 +315,46 @@ footer { color: #ffc2dc; font-size: 1rem; }
 
             <div class="project-links">
               <a
-                href="https://github.com/angelacoreas1989-boop/georgia-tourism-website-showcase"
+                href="https://github.com/angelacoreas1989-boop"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="View the Discovering Georgia project case study"
               >
                 View Case Study
               </a>
             </div>
+
           </div>
+
         </article>
 
+
+        <!-- MAGNOLIA GROVE -->
         <article class="project-card">
+
           <img
+            src="assets/magnolia-grove.png"
+            alt="Magnolia Grove apartment search and rental application experience"
             class="project-image"
-            src="https://angelacoreas1989-boop.github.io/apartment-application-portal/assets/magnolia-homepage.png"
-            alt="Magnolia Grove apartment search and rental experience"
-            loading="lazy"
-          >
+          />
 
-          <div class="project-body">
-            <p class="project-type">Customer Experience</p>
-            <h3>Magnolia Grove Rental Experience</h3>
+          <div class="project-content">
 
-            <p>
-              A responsive apartment-search and rental-application experience
-              that connects availability, screening requirements, policies,
-              and application steps into one clear customer journey.
+            <p class="project-type">
+              Customer Experience
             </p>
 
-            <div class="project-tags" aria-label="Project skills">
+            <h3>
+              Magnolia Grove Rental Experience
+            </h3>
+
+            <p>
+              A responsive apartment-search and rental-application
+              experience that connects availability, screening
+              requirements, policies, and application steps into one clear
+              customer journey.
+            </p>
+
+            <div class="tag-list">
               <span>JavaScript</span>
               <span>User Flows</span>
               <span>Form Design</span>
@@ -1100,41 +363,49 @@ footer { color: #ffc2dc; font-size: 1rem; }
 
             <div class="project-links">
               <a
-                href="https://angelacoreas1989-boop.github.io/apartment-application-portal/"
+                href="https://angelacoreas1989-boop.github.io/"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="View the Magnolia Grove Rental Experience live demonstration"
               >
                 Live Demo
               </a>
 
               <a
-                href="https://github.com/angelacoreas1989-boop/apartment-application-portal"
+                href="https://github.com/angelacoreas1989-boop"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="View the Magnolia Grove Rental Experience source code"
               >
                 View Code
               </a>
             </div>
 
-            <p class="demo-notice">
-              Demo only—please do not enter real personal information.
+            <p class="demo-note">
+              Demo only — please do not enter real personal information.
             </p>
+
           </div>
+
         </article>
 
-        <article class="project-card">
-          <img
-            class="project-image"
-            src="https://angelacoreas1989-boop.github.io/leasing-application-portal/assets/dashboard.png"
-            alt="Leasing Operations Dashboard with applicant records and workflow statuses"
-            loading="lazy"
-          >
 
-          <div class="project-body">
-            <p class="project-type">Employee Workflow</p>
-            <h3>Leasing Operations Dashboard</h3>
+        <!-- LEASING DASHBOARD -->
+        <article class="project-card">
+
+          <img
+            src="assets/leasing-dashboard.png"
+            alt="Leasing operations dashboard with applicant records and workflow statuses"
+            class="project-image"
+          />
+
+          <div class="project-content">
+
+            <p class="project-type">
+              Employee Workflow
+            </p>
+
+            <h3>
+              Leasing Operations Dashboard
+            </h3>
 
             <p>
               An interactive employee dashboard for searching applicant
@@ -1142,54 +413,63 @@ footer { color: #ffc2dc; font-size: 1rem; }
               and completing simulated leasing decisions.
             </p>
 
-            <div class="project-tags" aria-label="Project skills">
+            <div class="tag-list">
               <span>JavaScript</span>
               <span>DOM</span>
               <span>Search</span>
               <span>Filtering</span>
+              <span>Workflow Design</span>
             </div>
 
             <div class="project-links">
               <a
-                href="https://angelacoreas1989-boop.github.io/leasing-application-portal/"
+                href="https://angelacoreas1989-boop.github.io/"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="View the Leasing Operations Dashboard live demonstration"
               >
                 Live Demo
               </a>
 
               <a
-                href="https://github.com/angelacoreas1989-boop/leasing-application-portal"
+                href="https://github.com/angelacoreas1989-boop"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="View the Leasing Operations Dashboard source code"
               >
                 View Code
               </a>
             </div>
+
           </div>
+
         </article>
 
+
+        <!-- PORTFOLIO -->
         <article class="project-card">
+
           <img
-            class="project-image"
             src="assets/portfolio-homepage.png"
             alt="Angela Coreas software engineering portfolio homepage"
-            loading="lazy"
-          >
+            class="project-image"
+          />
 
-          <div class="project-body">
-            <p class="project-type">Portfolio Design</p>
-            <h3>Software Engineering Portfolio</h3>
+          <div class="project-content">
+
+            <p class="project-type">
+              Portfolio Design
+            </p>
+
+            <h3>
+              Software Engineering Portfolio
+            </h3>
 
             <p>
               A responsive portfolio designed to help recruiters quickly
-              understand my background, explore my projects, and access
-              live demonstrations and source code.
+              understand my interests, explore my work, and access live
+              demonstrations and source code.
             </p>
 
-            <div class="project-tags" aria-label="Project skills">
+            <div class="tag-list">
               <span>HTML</span>
               <span>CSS</span>
               <span>JavaScript</span>
@@ -1201,34 +481,42 @@ footer { color: #ffc2dc; font-size: 1rem; }
                 href="https://angelacoreas1989-boop.github.io/tech-portfolio/"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="View Angela Coreas's live software engineering portfolio"
               >
                 Live Demo
               </a>
 
               <a
-                href="https://github.com/angelacoreas1989-boop/tech-portfolio"
+                href="https://github.com/angelacoreas1989-boop"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="View the software engineering portfolio source code"
               >
                 View Code
               </a>
             </div>
+
           </div>
+
         </article>
 
-        <article class="project-card">
-          <img
-            class="project-image"
-            src="assets/Homepage.png"
-            alt="Nicole's Flower Designs floral business website homepage"
-            loading="lazy"
-          >
 
-          <div class="project-body">
-            <p class="project-type">Small Business Website</p>
-            <h3>Nicole’s Flower Designs</h3>
+        <!-- NICOLE FLOWERS -->
+        <article class="project-card">
+
+          <img
+            src="assets/nicoles-flowers.png"
+            alt="Nicole's Flower Designs floral business website homepage"
+            class="project-image"
+          />
+
+          <div class="project-content">
+
+            <p class="project-type">
+              Small Business Website
+            </p>
+
+            <h3>
+              Nicole’s Flower Designs
+            </h3>
 
             <p>
               A responsive floral-business website that helps customers
@@ -1236,7 +524,7 @@ footer { color: #ffc2dc; font-size: 1rem; }
               quote request.
             </p>
 
-            <div class="project-tags" aria-label="Project skills">
+            <div class="tag-list">
               <span>Responsive Design</span>
               <span>Visual Design</span>
               <span>Customer Workflow</span>
@@ -1244,44 +532,53 @@ footer { color: #ffc2dc; font-size: 1rem; }
 
             <div class="project-links">
               <a
-                href="https://angelacoreas1989-boop.github.io/nicole-flower-designs/"
+                href="https://angelacoreas1989-boop.github.io/"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="View Nicole's Flower Designs live demonstration"
               >
                 Live Demo
               </a>
 
               <a
-                href="https://github.com/angelacoreas1989-boop/nicole-flower-designs"
+                href="https://github.com/angelacoreas1989-boop"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="View Nicole's Flower Designs source code"
               >
                 View Code
               </a>
             </div>
+
           </div>
+
         </article>
 
-        <article class="project-card">
-          <img
-            class="project-image"
-            src="assets/hero-screenshot.png"
-            alt="Prime Nails by Fernanda beauty business website homepage"
-            loading="lazy"
-          >
 
-          <div class="project-body">
-            <p class="project-type">Small Business Website</p>
-            <h3>Prime Nails by Fernanda</h3>
+        <!-- PRIME NAILS -->
+        <article class="project-card">
+
+          <img
+            src="assets/prime-nails.png"
+            alt="Prime Nails by Fernanda beauty business website"
+            class="project-image"
+          />
+
+          <div class="project-content">
+
+            <p class="project-type">
+              Small Business Website
+            </p>
+
+            <h3>
+              Prime Nails by Fernanda
+            </h3>
 
             <p>
               A responsive beauty-business website that presents services,
-              pricing, customer information, and appointment-booking options.
+              pricing, customer information, and appointment-booking
+              options.
             </p>
 
-            <div class="project-tags" aria-label="Project skills">
+            <div class="tag-list">
               <span>Responsive Design</span>
               <span>Information Layout</span>
               <span>Customer Experience</span>
@@ -1289,37 +586,45 @@ footer { color: #ffc2dc; font-size: 1rem; }
 
             <div class="project-links">
               <a
-                href="https://angelacoreas1989-boop.github.io/prime-nails-by-fernanda/"
+                href="https://angelacoreas1989-boop.github.io/"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="View Prime Nails by Fernanda live demonstration"
               >
                 Live Demo
               </a>
 
               <a
-                href="https://github.com/angelacoreas1989-boop/prime-nails-by-fernanda"
+                href="https://github.com/angelacoreas1989-boop"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="View Prime Nails by Fernanda source code"
               >
                 View Code
               </a>
             </div>
+
           </div>
+
         </article>
 
-        <article class="project-card">
-          <img
-            class="project-image"
-            src="assets/homepage.png"
-            alt="A and S Tires wholesale tire business website homepage"
-            loading="lazy"
-          >
 
-          <div class="project-body">
-            <p class="project-type">Business Information Website</p>
-            <h3>A&amp;S Tires</h3>
+        <!-- A&S TIRES -->
+        <article class="project-card">
+
+          <img
+            src="assets/as-tires.png"
+            alt="A and S Tires wholesale tire business website"
+            class="project-image"
+          />
+
+          <div class="project-content">
+
+            <p class="project-type">
+              Business Information Website
+            </p>
+
+            <h3>
+              A&amp;S Tires
+            </h3>
 
             <p>
               A wholesale tire-business website that organizes services,
@@ -1327,7 +632,7 @@ footer { color: #ffc2dc; font-size: 1rem; }
               options.
             </p>
 
-            <div class="project-tags" aria-label="Project skills">
+            <div class="tag-list">
               <span>Responsive Design</span>
               <span>Business Content</span>
               <span>Customer Workflow</span>
@@ -1335,242 +640,335 @@ footer { color: #ffc2dc; font-size: 1rem; }
 
             <div class="project-links">
               <a
-                href="https://angelacoreas1989-boop.github.io/as-tires/"
+                href="https://angelacoreas1989-boop.github.io/"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="View the A and S Tires live demonstration"
               >
                 Live Demo
               </a>
 
               <a
-                href="https://github.com/angelacoreas1989-boop/as-tires"
+                href="https://github.com/angelacoreas1989-boop"
                 target="_blank"
                 rel="noopener noreferrer"
-                aria-label="View the A and S Tires source code"
               >
                 View Code
               </a>
             </div>
+
           </div>
+
         </article>
+
       </div>
+
     </section>
 
-    <section id="recognition" class="recognition reveal">
-      <p class="section-label">Academic &amp; Professional Recognition</p>
-      <h2>✦ Recognition &amp; Achievements ✦</h2>
 
-      <div class="recognition-card">
-        <span class="recognition-icon" aria-hidden="true">🏆</span>
+    <!-- =========================
+         WGU AWARD
+    ========================== -->
+    <section class="section award-section">
+
+      <div class="section-heading">
+        <p class="section-kicker">ACADEMIC RECOGNITION</p>
+        <h2>✦ WGU Excellence Award ✦</h2>
+      </div>
+
+      <div class="award-card">
+
+        <div class="award-icon" aria-hidden="true">
+          🏆
+        </div>
 
         <div>
-          <h3>WGU Excellence Award · Front-End Web Development</h3>
+
+          <h3>
+            Front-End Web Development
+          </h3>
+
           <p>
-            Selected by WGU Evaluation faculty for the exceptional quality of
-            my Discovering Georgia project. The evaluator praised my
-            wireframes and page layouts for being clean, readable, and clearly
-            organized, with the required page elements presented effectively.
+            Selected by WGU Evaluation faculty for the exceptional quality
+            of my Discovering Georgia project.
+          </p>
+
+          <p>
+            The evaluator recognized the project’s layouts as clean,
+            readable, organized, and visually effective.
           </p>
 
           <a
-            href="https://github.com/angelacoreas1989-boop/georgia-tourism-website-showcase"
+            href="https://github.com/angelacoreas1989-boop"
             target="_blank"
             rel="noopener noreferrer"
           >
             View Award-Winning Project
           </a>
+
         </div>
+
       </div>
-      <div class="recognition-card">
-        <span class="recognition-icon" aria-hidden="true">✦</span>
+
+    </section>
+
+
+    <!-- =========================
+         SKILLS
+    ========================== -->
+    <section id="skills" class="section skills-section">
+
+      <div class="section-heading">
+        <h2>✦ Skills ✦</h2>
+      </div>
+
+
+      <div class="skills-grid">
+
+        <article class="skill-card">
+
+          <h3>
+            Development
+          </h3>
+
+          <div class="tag-list">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>TypeScript</span>
+            <span>Angular</span>
+            <span>REST APIs</span>
+            <span>SVG</span>
+            <span>Python</span>
+            <span>Git</span>
+            <span>GitHub</span>
+            <span>VS Code</span>
+          </div>
+
+        </article>
+
+
+        <article class="skill-card">
+
+          <h3>
+            Design & User Experience
+          </h3>
+
+          <div class="tag-list">
+            <span>Responsive Design</span>
+            <span>User Flows</span>
+            <span>Form Organization</span>
+            <span>Information Hierarchy</span>
+            <span>Workflow Design</span>
+            <span>Usability Judgment</span>
+            <span>AI-Output Evaluation</span>
+          </div>
+
+        </article>
+
+
+        <article class="skill-card">
+
+          <h3>
+            Systems & Problem Solving
+          </h3>
+
+          <div class="tag-list">
+            <span>Workflow Analysis</span>
+            <span>Process Improvement</span>
+            <span>Issue Investigation</span>
+            <span>Data Accuracy</span>
+            <span>Customer Journeys</span>
+            <span>Systems Thinking</span>
+            <span>Cross-Functional Communication</span>
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         CURRENTLY LEARNING
+    ========================== -->
+    <section id="learning" class="section learning-section">
+
+      <div class="section-heading">
+        <p class="section-kicker">IN PROGRESS</p>
+        <h2>✦ Currently Learning ✦</h2>
+      </div>
+
+      <div class="tag-list learning-tags">
+        <span>Figma</span>
+        <span>Wireframes</span>
+        <span>Interactive Prototypes</span>
+        <span>User Research</span>
+        <span>Human-AI Interaction</span>
+        <span>SQL</span>
+        <span>Relational Databases</span>
+        <span>Data Structures</span>
+        <span>Algorithms</span>
+        <span>Accessible Design</span>
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         CURRENTLY BUILDING
+    ========================== -->
+    <section class="section building-section">
+
+      <div class="section-heading">
+        <p class="section-kicker">IN PROGRESS</p>
+        <h2>✦ Currently Building ✦</h2>
+      </div>
+
+      <div class="building-card">
+
+        <div class="building-icon" aria-hidden="true">
+          🌸
+        </div>
+
         <div>
-          <h3>Cortland Rising Star Award &amp; Employee of the Month</h3>
-          <p>Received both recognitions in June 2023 while supporting bilingual
-            centralized leasing for 13 communities. This is a milestone I’m proud
-            to carry into my next chapter in technology.</p>
+
+          <h3>
+            DailyFlow
+          </h3>
+
+          <p>
+            A productivity application being developed to help users
+            manage tasks, goals, schedules, and daily workflows through a
+            clear and efficient interface.
+          </p>
+
+          <p class="small-text">
+            Repository and demonstration coming after the first functional
+            version is complete.
+          </p>
+
         </div>
+
       </div>
+
     </section>
 
-    <section id="skills" class="reveal">
-      <h2>✦ Skills ✦</h2>
 
-      <h3 class="skill-heading">Development</h3>
+    <!-- =========================
+         EDUCATION
+    ========================== -->
+    <section class="section education-section">
 
-      <div class="skills" aria-label="Development skills">
-        <span class="badge">HTML</span>
-        <span class="badge">CSS</span>
-        <span class="badge">JavaScript</span>
-        <span class="badge">TypeScript</span>
-        <span class="badge">Angular</span>
-        <span class="badge">REST APIs</span>
-        <span class="badge">SVG</span>
-        <span class="badge">Python</span>
-        <span class="badge">Git</span>
-        <span class="badge">GitHub</span>
-        <span class="badge">VS Code</span>
+      <div class="section-heading">
+        <h2>✦ Education ✦</h2>
       </div>
 
-      <h3 class="skill-heading">Design and User Experience</h3>
+      <div class="education-card">
 
-      <div class="skills" aria-label="Design and user experience skills">
-        <span class="badge">Responsive Design</span>
-        <span class="badge">User Flows</span>
-        <span class="badge">Form Organization</span>
-        <span class="badge">Information Hierarchy</span>
-        <span class="badge">Workflow Design</span>
-        <span class="badge">Usability Judgment</span>
-        <span class="badge">AI-Output Evaluation</span>
+        <h3>
+          Western Governors University
+        </h3>
+
+        <p>
+          Bachelor of Science in Software Engineering
+        </p>
+
+        <p>
+          Expected Graduation: June 2028
+        </p>
+
       </div>
 
-      <h3 class="skill-heading">Currently Learning</h3>
-
-      <div class="skills learning-skills" aria-label="Skills currently being learned">
-        <span class="badge">Figma</span>
-        <span class="badge">Wireframes</span>
-        <span class="badge">Interactive Prototypes</span>
-        <span class="badge">User Research</span>
-        <span class="badge">Human-AI Interaction</span>
-        <span class="badge">Data Structures and Algorithms</span>
-      </div>
-      <h3 class="skill-heading">Languages</h3>
-      <div class="skills" aria-label="Languages and proficiency">
-        <span class="badge">English — Fluent</span>
-        <span class="badge">Spanish — Native / Bilingual</span>
-        <span class="badge">Italian — Elementary</span>
-        <span class="badge">Portuguese — Elementary</span>
-      </div>
     </section>
 
-<section id="contact" class="cta reveal">
-  <h2>✦ Open to Opportunities ✦</h2>
 
-  <p>
-    I’m open to customer service, customer experience, centralized operations,
-    application processing, and systems or application support roles where I can
-    bring my experience working with people, solving problems, and keeping complex
-    workflows organized.
-  </p>
-  <p>
-    I’m also interested in opportunities to grow in technical support, enterprise
-    software, PropTech, UX, product support, and front-end development, including
-    Summer 2027 internships. I bring hands-on operational experience, bilingual
-    communication, a strong commitment to quality, and the ability to learn new
-    tools and adapt to different teams and personalities.
-  </p>
-  <p>
-    I’d love to connect with a team that values thoughtful customer care,
-    collaboration, accountability, and continuous learning. Whether I’m helping
-    a customer, supporting a colleague, or learning a new system, I’m ready to
-    contribute, follow through, and give the work my best.
-  </p>
-  <p class="contact-email">
-    <strong>School Email:</strong>
-    <a href="mailto:acorea3@wgu.edu">acorea3@wgu.edu</a>
-  </p>
-  <p class="contact-email">
-    <strong>Personal Email:</strong>
-    <a href="mailto:ostorga.angelac@gmail.com">ostorga.angelac@gmail.com</a>
-  </p>
-  <p class="references-note">Professional references available upon request.</p>
+    <!-- =========================
+         OPPORTUNITIES / CONTACT
+    ========================== -->
+    <section id="contact" class="section contact-section">
 
-  <div class="cta-buttons">
-    <a
-      class="btn"
-      href="mailto:ostorga.angelac@gmail.com"
-      target="_blank"
-      rel="noopener noreferrer"
-      aria-label="Email Angela Coreas at her personal email address"
-    >
-      Email Me
-    </a>
+      <div class="section-heading">
 
-    <a
-      class="btn-outline"
-      href="https://www.linkedin.com/in/angela-coreas-550088186"
-      target="_blank"
-      rel="noopener noreferrer"
-      aria-label="Visit Angela Coreas on LinkedIn"
-    >
-      LinkedIn
-    </a>
+        <h2>
+          ✦ Open to Opportunities ✦
+        </h2>
 
-    <a
-      class="btn-outline"
-      href="https://github.com/angelacoreas1989-boop"
-      target="_blank"
-      rel="noopener noreferrer"
-      aria-label="Visit Angela Coreas on GitHub"
-    >
-      GitHub
-    </a>
-  </div>
-</section>
+      </div>
+
+      <div class="contact-content">
+
+        <p>
+          I’m interested in opportunities where I can combine my
+          professional experience with technology, user experience,
+          systems, and problem-solving.
+        </p>
+
+        <p>
+          I’m especially interested in UX, product, business systems,
+          property technology, front-end development, application support,
+          process improvement, and other human-centered technology roles.
+        </p>
+
+        <p>
+          I’m also seeking Summer 2027 internship opportunities as I
+          continue my Software Engineering degree.
+        </p>
+
+
+        <div class="contact-links">
+
+          <a
+            class="button primary-button"
+            href="mailto:acorea3@wgu.edu"
+          >
+            Email Me
+          </a>
+
+          <a
+            class="button secondary-button"
+            href="https://www.linkedin.com/in/angela-coreas-550088186"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            LinkedIn
+          </a>
+
+          <a
+            class="button secondary-button"
+            href="https://github.com/angelacoreas1989-boop"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
 
   </main>
 
-  <footer>
-    ✦ Always Curious • Dedicated to Learning • Building with Purpose ✦
+
+  <!-- =========================
+       FOOTER
+  ========================== -->
+  <footer class="site-footer">
+
+    <p>
+      ✦ Building Thoughtfully • Learning Continuously • Designing for Real Users ✦
+    </p>
+
+    <p>
+      Designed &amp; built with ♡ by Angela
+    </p>
+
   </footer>
 
-  <script>
-const typingElement = document.getElementById("typing");
 
-const message =
-  "Always curious. Dedicated to learning. Building with purpose.";
+  <script src="script.js"></script>
 
-let characterIndex = 0;
-
-function typeEffect() {
-  if (!typingElement || characterIndex >= message.length) {
-    return;
-  }
-
-  typingElement.textContent += message.charAt(characterIndex);
-  characterIndex += 1;
-
-  window.setTimeout(typeEffect, 55);
-}
-
-const prefersReducedMotion = window.matchMedia(
-  "(prefers-reduced-motion: reduce)"
-).matches;
-
-if (typingElement) {
-  if (prefersReducedMotion) {
-    typingElement.textContent = message;
-  } else {
-    window.addEventListener("load", typeEffect);
-  }
-}
-
-const revealElements = document.querySelectorAll(".reveal");
-
-if (prefersReducedMotion || !("IntersectionObserver" in window)) {
-  revealElements.forEach((element) => {
-    element.classList.add("active");
-  });
-} else {
-  const observer = new IntersectionObserver(
-    (entries) => {
-      entries.forEach((entry) => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("active");
-          observer.unobserve(entry.target);
-        }
-      });
-    },
-    {
-      threshold: 0.1
-    }
-  );
-
-  revealElements.forEach((element) => {
-    observer.observe(element);
-  });
-}
-
-</script>
 </body>
 </html>
